@@ -1,0 +1,20 @@
+{
+  "name": "ragnibot",
+  "version": "1.0.0",
+  "description": "RagnarokX's Helpful Friend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "convert": "node convert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "discord": "^0.8.2",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0"
+  }
+}
