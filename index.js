@@ -106,15 +106,15 @@ client.on("message", (msg) => {
         },
         {
           name: "Character Overview",
-          value: `${heroInfo['Short Character Overview(WIP)']}`
+          value: heroInfo['Short Character Overview(WIP)']
         },
         {
           name: "Master Ability Effect",
-          value: `${heroInfo['Master Ability Effect']}`
+          value: heroInfo['Master Ability Effect']
         },
         {
           name: "Recommended Build",
-          value: `${heroInfo['Recommended Build']}`
+          value: heroInfo['Recommended Build']
         }
       ],
       color: "0x00AE86",
