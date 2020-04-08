@@ -32,11 +32,14 @@ client.on("disconnect", () => {
 });
 
 client.on("message", (msg) => {
+  let commands = msg.content.split(" ");
   if (msg.content.startsWith("!ragni")) {
     return msg.reply('If you want information on a unit, type `!unit "unit name"`')
   }
   if (msg.content.startsWith("!unit")) {
-    let commands = msg.content.split(" ");
+    if(commands[1] === undefined) {
+      return msg.reply('If you want information on a unit, type `!unit "unit name"`')
+    }
     let heroStats = statsData.find(
       (hero) =>
         hero["Character name"].toLowerCase().includes(commands[1].toLowerCase())
