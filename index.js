@@ -58,6 +58,10 @@ client.on("message", (msg) => {
           value: `${heroInfo["Rarity"]}`,
         },
         {
+          name: "Origin",
+          value: `${heroInfo["Origin"]}`,
+        },
+        {
           name: "HP",
           value: heroStats["HP"],
           inline: true,
