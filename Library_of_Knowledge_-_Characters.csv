@@ -1,4 +1,9 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build
+,,Oldor,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
+Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use ""Hazard Break"" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
+Support 1: Viking Lore (Max HP/ Atk Up)
+Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
+Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)"
 UR,,Kilufe,Earth,WoTV,Battle Mage,Spellblade,White Mage,4/1/2020,TBD,,"HP +20%, Cast time - 20","Kilfe is a very versatile Character, she can Tank increasing her Hate via Spellblade Sub,Heal via White Mage sub which also grands a light magic attack, or apply Confusion and Stun via Battle Mage sub, additionally she can deal decent amounts of aoe damage and increase the faith of your party.","Sub: White Mage
 Support 1: Magic Up Lv.1
 Support 2: Defense Up Lv. 1
@@ -49,8 +54,8 @@ UR,,"Ramza
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Shadow Runner (Agi/Luck Up)
 Reaction: Counter Tackle (Chance of counterattack & 1-panel Knockback whan attacked)"
-UR,,Christmas Macherie,Fire,WoTV,Dragoon,Viking,Ranger,12/18/2019,TBD,"Limited
-","AGI +10%, Ice Resistance +10",Christmas Macherie got various ranged attacks with her Jump abilitys and her high base jump allows her to abuse the map terrain and her ranger sub. She gets high amounts of atk from her ability Board and can be a main dps for boss battles. Her basic attack being melee makes it harder to efficiently abuse her high range without running out of AP. ,"Sub: Ranger
+UR,,Christmas Machérie,Fire,WoTV,Dragoon,Viking,Ranger,12/18/2019,TBD,"Limited
+","AGI +10%, Ice Resistance +10",Christmas Machérie got various ranged attacks with her Jump abilitys and her high base jump allows her to abuse the map terrain and her ranger sub. She gets high amounts of atk from her ability Board and can be a main dps for boss battles. Her basic attack being melee makes it harder to efficiently abuse her high range without running out of AP. ,"Sub: Ranger
 Support 1: Viking Lore (Max Hp/Atk Up)
 Support 2: Focus (Cast time Down, Missile Atk Up)
 Reaction: Dragon's Blade (Chance of Counterattack when taking Damage & absorbs Damage dealt)"
@@ -85,7 +90,7 @@ UR,,Mediena,Ice,FFBE,Black Mage,Green Mage,Ninja,11/14/2019,3/25/2020,,MAG +30%,
 Support 1: MAG Up Lv.1
 Support 2: Shukuchi (Move/Jump +1)
 Reaction: Magic Counter (Chance of Magic Counterattack when taking Damage)"
-UR,,Macherie Hourne,Light,WoTV,Cleric,Monk,Black Mage,11/14/2019,3/25/2020,,"TP +10%, AGI +10%",Macherie got high mag and can cast good heals and magic attacks with that. She can buff up light and dark resistance and prevent several debuffs. Her usefullness is highly dependend on the stage and corresponding enemys. ,"Sub: Black Mage
+UR,,Machérie Hourne,Light,WoTV,Cleric,Monk,Black Mage,11/14/2019,3/25/2020,,"TP +10%, AGI +10%",Machérie got high mag and can cast good heals and magic attacks with that. She can buff up light and dark resistance and prevent several debuffs. Her usefullness is highly dependend on the stage and corresponding enemys. ,"Sub: Black Mage
 Support 1: MAG Up Lv.1
 Support 2: HP Up Lv.1
 Reaction: Magic Counter (Chance of Magic Counterattack when taking Damage)"
@@ -115,6 +120,12 @@ UR,,"Thancred
 Support 1: Initial AP Up Lv.1
 Support 2: HP Up lv.1
 Reaction: Jagular Rip (Chance of Counterattack when taking damage)"
+MR,,Lavie,Thunder,WoTV,Paladin,Thief,Samurai,4/15/2020,TBD,,"Evasion +10, 
+AP consumption -20%","Has an excellent Master Ability. Can be built as an evasion tank with Thief Lore, Blade Soul and Third Eye Combo. When used as tank, Attract Blade is cheaper to use because of MA. When used as a Tanky debuffer (with Thief Sub), she can Steal Heart/ Steal Time. Beware that she would need high Faith for debuffs to land, thus increasing Magic Damage taken.","Sub: Paladin/Thief
+Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
+Support 2: Thief Lore (Move +1, Agi Up)
+Reaction: Paladin's Guard (Chance of damage reduction when taking Physical Damage)
+"
 MR,,Shimur,Fire,WoTV,Samurai,Viking,Thief,4/1/2020,TBD,,"ATK +10%, Accuracy + 30","Shimur is a damage type character. With access to Thief he gets good mobility and can reduce the enemys CT, which makes him viable for Raid and Boss battles.","Sub: Thief
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Thief Lore (Move +1, Agi Up)
@@ -147,7 +158,7 @@ Free
 Support 1: Self-Sacrifice (Great Atk Up, All ATK Res Down)
 Support 2: Atk Up Lv.1
 Reaction: Old Mercenary (Chance of counterattack when taking damage and absorbing the damage done)"
-MR,,Etoa,Earth,WoTV,Monk,Cleric,Knight,12/1/2019,4/8/2020,"Limited
+MR,,Etoa,Earth,WoTV,Monk,Cleric,Knight,12/1/2019,4/15/2020,"Limited
 Free
 ","Move +1, Jump +1, Evade +10","Etoa perfoms as a bruiser with good mobility. Her damage is limited, but shes good for Chains. Her Sub Jobs give her some Utility and her TMR work very well on many kinds of Units. ","Sub: Monk
 Support 1: Strike Mastery (Strike Atk Up)
