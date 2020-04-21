@@ -4,12 +4,10 @@
  * required PHP >= 5.5
  */
 
+require 'constant.php';
+require 'fn_parse_news.php';
+
 # setup crawler settings
-define('NEWS_FILE_REL_PATH', "news_data.json");
-define('NEWS_LIST_URL', 'https://site.na.wotvffbe.com/whatsnew/list?lang=en&category=');
-define('NEWS_ITEM_URL', 'https://site.na.wotvffbe.com/whatsnew/detail?&lang=en&group_id=');
-define('IMG_ROOT_URL', 'https://site.na.wotvffbe.com');
-define('TIMEZONE', 'America/New_York');
 $r_newsCategories = [
     'info',
     'event',
@@ -71,8 +69,7 @@ foreach ($r_newsCategories as &$p_category) {
                 'title' => $p_newsTitle,
                 'type' => $p_category,
                 'url' => NEWS_ITEM_URL . $p_newsId,
-                'timestamp' => intval(microtime(true) * 1000),
-                'context' => '[working on it]'
+                'timestamp' => intval(microtime(true) * 1000)
             ]);
         }
     }
@@ -84,7 +81,8 @@ foreach ($r_newNews as $k_key => $p_value) {
     # fetch html into the context
     $p_url = $p_value['url'];
     $o_news = @$o_doc->loadHTMLFile($p_url);
-    $r_newNews[$k_key]['context'] = $o_doc->saveHTML();
+    $r_newNews[$k_key]['context'] = parse_news_to_array($o_doc->saveHTML());
+
 }
 
 # put into the file if new news
