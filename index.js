@@ -180,6 +180,7 @@ function updateNotice() {
                 } else if (!settings.notices) {
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
+                  console.log(list[0].children[3].children[1].children[0].data)
                   fs.writeFile(
                     "settings.json",
                     JSON.stringify(settings, " ", 2),
@@ -282,6 +283,7 @@ function updateEvent() {
                       } else if (!settings.events) {
                         settings.events =
                           list[0].children[3].children[1].children[0].data;
+                        console.log(list[0].children[3].children[1].children[0].data)
                         fs.writeFile(
                           "settings.json",
                           JSON.stringify(settings, " ", 2),
@@ -387,6 +389,7 @@ function updateImp() {
                         } else if (!settings.important) {
                           settings.important =
                             list[0].children[3].children[1].children[0].data;
+                          console.log(list[0].children[3].children[1].children[0].data)
                           fs.writeFile(
                             "settings.json",
                             JSON.stringify(settings, " ", 2),
