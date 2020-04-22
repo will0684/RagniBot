@@ -176,6 +176,7 @@ function updateNotice() {
                 ) {
                   resolve(0);
                 } else if (!settings.notices) {
+                    console.log(list[0].children[3].children[1].children[0].data)
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
                   fs.writeFile(
