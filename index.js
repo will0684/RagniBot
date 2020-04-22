@@ -158,7 +158,12 @@ function updateNotice() {
     if (!settings.updateChannel) {
       resolve(0);
     } else {
-      puppeteer.launch().then((browser) => {
+      puppeteer.launch({
+        'args' : [
+          '--no-sandbox',
+          '--disable-setuid-sandbox'
+        ]
+      }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
             setTimeout(() => {
@@ -246,7 +251,12 @@ function updateEvent() {
     if (!settings.updateChannel) {
       resolve(0);
     } else {
-      puppeteer.launch().then((browser) => {
+      puppeteer.launch({
+        'args' : [
+          '--no-sandbox',
+          '--disable-setuid-sandbox'
+        ]
+      }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
             setTimeout(() => {
@@ -340,7 +350,12 @@ function updateImp() {
     if (!settings.updateChannel) {
       resolve(0);
     } else {
-      puppeteer.launch().then((browser) => {
+      puppeteer.launch({
+        'args' : [
+          '--no-sandbox',
+          '--disable-setuid-sandbox'
+        ]
+      }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
             setTimeout(() => {
