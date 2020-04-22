@@ -1,6 +1,6 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build
 ,,Oldor,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
-Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use ""Hazard Break"" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
+Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use "Hazard Break" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)"
@@ -37,7 +37,7 @@ UR,,Kitone,Earth,WoTV,Ninja,Soldier,Time Mage,1/1/2020,TBD,,Evade +15,"Kitone is
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down)
 Reaction: Slow Counter (Chance of inflicting Slow on target for 3 turns when taking Damage)"
-UR,,"""Whisper""",Dark,WoTV,Knight,Samurai,Spellblade,1/1/2020,TBD,,"Slash ATK +5,
+UR,,""Whisper"",Dark,WoTV,Knight,Samurai,Spellblade,1/1/2020,TBD,,"Slash ATK +5,
 All Attack Type Resistance +5","Whisper got 30% res to all attack types and access to Skills raising her Evasion, makeing her able to be played as a Tank type character with the 'Vow of Love' Vision Card equipped, with her main Job being Knight she can apply several debuff. Her HP is really low, but her kit makes her a valueable Magic Tank. ","Sub: Samurai
 Support 1: HP Up Lv.1
 Support 2: Blade Soul (ATk/Evasion Up, DEF Down)
@@ -146,7 +146,7 @@ MR,,Adelard,Fire,WoTV,Red Mage,Green Mage,White Mage,2/1/2020,TBD,,"MAG +20%, DE
 Support 1: Initial AP Up Lv.1 
 Support 2: Mage's Protection (Increase Magic ATK Res)
 Reaction: Regenerator (Chance of bestowing Regen on self for 3 turns when taking damage)"
-MR,,Dorando,Earth,WoTV,Viking,Monk,Gunner,1/15/2020,TBD,,"HP +25%, Critical Rate +15","He can slash short-range enemies and shoot long-range enemies. ""Drain Cyclone"" is a range attack that absorbs damage done, and is a powerful ability that can make use of his higher HP. He can increase his team's fire attack power, range, and crit chance with the Gunner abilities ""Advise"" and ""Aim"". Weak point is that he is slow and has a low # of turns. He needs haste support","Sub: Gunner
+MR,,Dorando,Earth,WoTV,Viking,Monk,Gunner,1/15/2020,TBD,,"HP +25%, Critical Rate +15","He can slash short-range enemies and shoot long-range enemies. "Drain Cyclone" is a range attack that absorbs damage done, and is a powerful ability that can make use of his higher HP. He can increase his team's fire attack power, range, and crit chance with the Gunner abilities "Advise" and "Aim". Weak point is that he is slow and has a low # of turns. He needs haste support","Sub: Gunner
 Support 1: Viking Lore (Max HP/Atk Up)
 Support 2: HP Up Lv.1 
 Reaction: Counter Shot (Chance of countertattack when taking damage)
@@ -154,7 +154,7 @@ Reaction: Counter Shot (Chance of countertattack when taking damage)
 MR,,"Gaffgarion 
 ",Dark,FF Tactics,Dark Knight,Warrior,Monk,12/27/2019,TBD,"Limited
 Free
-","Initial AP +10, Critical Damage +25%","A powerful physical attacker that learns attack up abilities( ""Sacrifice"" and ""Attack Up Lv1"") He has good range on `` Evil Blade '' and `` Evil Dead '', which can deal a lot of damage, and  `` Sword of Darkness '', which recovers HP by the amount of damage that has been dealt. Gafgarion has a lot of abilities to consume and use HP, so there is concern about survival.","Sub: Dark Knight
+","Initial AP +10, Critical Damage +25%","A powerful physical attacker that learns attack up abilities( "Sacrifice" and "Attack Up Lv1") He has good range on "Evil Blade" and "Evil Dead", which can deal a lot of damage, and  `` Sword of Darkness '', which recovers HP by the amount of damage that has been dealt. Gafgarion has a lot of abilities to consume and use HP, so there is concern about survival.","Sub: Dark Knight
 Support 1: Self-Sacrifice (Great Atk Up, All ATK Res Down)
 Support 2: Atk Up Lv.1
 Reaction: Old Mercenary (Chance of counterattack when taking damage and absorbing the damage done)"
@@ -190,7 +190,7 @@ MR,,Marguerite,Fire,WoTV,Time Mage,Black Mage,Red Mage,11/14/2019,3/25/2020,,"TP
 Support 1: Magic Up Lv.1
 Support 2: Initial AP Up Lv.1
 Reaction: Slow Counter (Chance of inflicting Slow on target for 3 turns when taking Damage)"
-MR,,"""Grace""",Light,WoTV,White Mage,Green Mage,Lancer,11/14/2019,3/25/2020,,"MAG +20%
+MR,,""Grace"",Light,WoTV,White Mage,Green Mage,Lancer,11/14/2019,3/25/2020,,"MAG +20%
 All Attack Type Resistance +10"," is the best MR healer so far and thats also all she does, healing her allies, she got some minor buffs with Shell and Protest which usally arent advised to level for Auto play purpose. ","Sub: White Mage
 Support 1: Emerald Echo (Increase effect duration of Buff/Debuff cast by self by 1 turn)
 Support 2: Savior's Protection (Debuff Res/ Magic ATK Res Up)
@@ -252,12 +252,12 @@ SR,,Little Leela,Dark,WoTV,Spellblade,Knight,White Mage,11/14/2019,3/25/2020,,"M
 Support 1: Providence of Light (Magic ATK Res/ Light Res Up)
 Support 2: HP Up Lv.1
 Reaction: Sworld Guard (Chance of Damage reduction when taking Damage)"
-SR,,"""Murmur""",Light,WoTV,Red Mage,Black Mage,Lancer,11/14/2019,3/25/2020,,"MAG +20%,
+SR,,""Murmur"",Light,WoTV,Red Mage,Black Mage,Lancer,11/14/2019,3/25/2020,,"MAG +20%,
 All Attack Type Resistance +10",Poor Man's Kilufe: a tanky Earth magic damage dealer. Jamming Thrust and Fast Cast are best skills of Red mage. Can ditch out some good damage and also have decent recovery and debuff skills.,"Sub: Black Mage
 Support 1: Mag Up Lv.1
 Support 2:Initial AP Up Lv.1
 Reaction: Magic Counter (Chance of Magic Counterattack when taking Damage)"
-SR,,Baelo,Earth,WoTV,Knight,Warrior,Paladin,11/14/2019,3/25/2020,,"AGI +10%, Luck +30%","Poor Man's Engelbert. He is a worse tank than Mont is everyway with the same element. So not sure if there is any reason to raise him. Don't think there is a content that requires 2 Earth tanks, but only then he might be useful (still questionable). He has some decent breaks from his Knight job, especial ""Trinity break"" and that's it.","Sub: Paladin
+SR,,Baelo,Earth,WoTV,Knight,Warrior,Paladin,11/14/2019,3/25/2020,,"AGI +10%, Luck +30%","Poor Man's Engelbert. He is a worse tank than Mont is everyway with the same element. So not sure if there is any reason to raise him. Don't think there is a content that requires 2 Earth tanks, but only then he might be useful (still questionable). He has some decent breaks from his Knight job, especial "Trinity break" and that's it.","Sub: Paladin
 Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
 Support 2: HP up Lv.1
 Reaction: Sword Guard (Chance of damage reduction when taking Damage)"
@@ -265,7 +265,7 @@ SR,,Socia,Wind,WoTV,Dragoon,Warrior,Ranger,11/14/2019,3/25/2020,,"Pierce ATK +15
 Support 1: Atk Up Lv.1
 Support 2: Ranger Lore ( Range +1, Accurace Up)
 Reaction: Reflex (Chance of evading all attacks)"
-SR,,Vallaide,Ice,WoTV,Green Mage,White Mage,Red Mage,11/14/2019,3/25/2020,,"TP +45%, AP Gain +30%","Good support, have +45% TP in MA so can cast support/debuff skills for days. Can cast ""Fast cast"" on ally to increase the overall damage of a Magic caster focused team.","Sub: Red Mage
+SR,,Vallaide,Ice,WoTV,Green Mage,White Mage,Red Mage,11/14/2019,3/25/2020,,"TP +45%, AP Gain +30%","Good support, have +45% TP in MA so can cast support/debuff skills for days. Can cast "Fast cast" on ally to increase the overall damage of a Magic caster focused team.","Sub: Red Mage
 Support 1: Initial AP Up Lv.1
 Support 2: Emerald Echo (Increase effect duration of Buff/Debuff cast by self by 1 turn)
 Reaction: Regenerator (Chance of bestowing Regen on self for 3 turns when taking damage)"
@@ -299,11 +299,11 @@ R,,Miche,Fire,WoTV,Black Mage,Thief,Ranger,11/14/2019,3/25/2020,,"Cast Time -75%
 Support 1: MAG Up Lv.1
 Support 2: Thief Lore (Move +1, Agi Up)
 Reaction: Reflex (Chance of evading all attacks)"
-R,,Mia,Wind,WoTV,Thief,Cleric,Spellblade,11/14/2019,3/25/2020,,"AP Gain +100%, Spirit Type Killer +50","Mia can be used as an item collector immediately, because you can use ""steal"" in her initial state. Since her initial ""Jump"" is at 3, it is also attractive that it is strong against height differences. Subjob "" Magic Swordsman "" can use debuffs such as bio swords and chicken swords. She has weak stats, but can support allies as a debuffer.","Sub: Thief
+R,,Mia,Wind,WoTV,Thief,Cleric,Spellblade,11/14/2019,3/25/2020,,"AP Gain +100%, Spirit Type Killer +50","Mia can be used as an item collector immediately, because you can use "steal" in her initial state. Since her initial "Jump" is at 3, it is also attractive that it is strong against height differences. Subjob " Magic Swordsman " can use debuffs such as bio swords and chicken swords. She has weak stats, but can support allies as a debuffer.","Sub: Thief
 Support 1: Acquired AP Up Lv.1
 Support 2: Thief Lore (Move +1, Agi Up)
 Reaction: Quick Action (Chance of significantly raising own Agility for 1 turn after taking damage)"
-N,,Zazan,Water,WoTV,Warrior,Knight,Thief,11/14/2019,3/25/2020,,"DEX +15%, Move +1, Jump +1","Zazan can reach max Move of 6, highest in game, very mobile. You can Equip 'Vow of Love"" so that he can become a Wall for some damage or debuff absorbing. Zazan's fragments can be obtained from ""Normal Summon"", ""Shop"". Easier to limitbreak then any other Character. His TMR have high defense, most character can equip it, aim for that TMR if you have enough materials.","Sub: Thief
+N,,Zazan,Water,WoTV,Warrior,Knight,Thief,11/14/2019,3/25/2020,,"DEX +15%, Move +1, Jump +1","Zazan can reach max Move of 6, highest in game, very mobile. You can Equip 'Vow of Love" so that he can become a Wall for some damage or debuff absorbing. Zazan's fragments can be obtained from "Normal Summon", "Shop". Easier to limitbreak then any other Character. His TMR have high defense, most character can equip it, aim for that TMR if you have enough materials.","Sub: Thief
 Support 1: Acquired AP Up Lv.1
 Support 2: Thief Lore (Move +1, Agi Up)
 Reaction: Quick Action (Chance of significantly raising own Agility for 1 turn after taking damage)"

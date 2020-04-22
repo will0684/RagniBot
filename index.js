@@ -67,6 +67,7 @@ client.on("message", (msg) => {
     );
   }
   if (msg.content.startsWith("!unit")) {
+    let noStatsString = ''
     if (commands[1] === undefined) {
       return msg.reply(
         'If you want information on a unit, type `!unit "unit name"`'
@@ -78,11 +79,14 @@ client.on("message", (msg) => {
     let heroInfo = heroData.find((hero) =>
       hero["Name"].toLowerCase().includes(commands[1].toLowerCase())
     );
-    if (heroStats === undefined || heroInfo === undefined) {
+    if (heroStats === undefined && heroInfo === undefined) {
       return msg.reply("could not find a character named " + commands[1]);
     }
+    if (heroStats === undefined && heroInfo) {
+      noStatsString = 'N/A'
+    }
     const embed = {
-      title: heroStats["Character name"],
+      title: heroStats ? heroStats["Character name"] : heroInfo["Name"],
       fields: [
         {
           name: "Rarity",
@@ -94,52 +98,52 @@ client.on("message", (msg) => {
         },
         {
           name: "HP",
-          value: heroStats["HP"],
+          value: heroStats ? heroStats["HP"] : noStatsString,
           inline: true,
         },
         {
           name: "Atk",
-          value: heroStats["Attack"],
+          value: heroStats ? heroStats["Attack"] : noStatsString,
           inline: true,
         },
         {
           name: "TP",
-          value: heroStats["TP"],
+          value: heroStats ? heroStats["TP"] : noStatsString,
           inline: true,
         },
         {
           name: "Mag",
-          value: heroStats["Magic"],
+          value: heroStats ? heroStats["Magic"] : noStatsString,
           inline: true,
         },
         {
           name: "AP",
-          value: heroStats["AP"],
+          value: heroStats ? heroStats["AP"] : noStatsString,
           inline: true,
         },
         {
           name: "Agi",
-          value: heroStats["Quickness"],
+          value: heroStats ?  heroStats["Quickness"] : noStatsString,
           inline: true,
         },
         {
           name: "Move",
-          value: heroStats["Move"],
+          value: heroStats ? heroStats["Move"] : noStatsString,
           inline: true,
         },
         {
           name: "Dex",
-          value: heroStats["Dexterity"],
+          value: heroStats ? heroStats["Dexterity"] : noStatsString,
           inline: true,
         },
         {
           name: "Jump",
-          value: heroStats["Jump"],
+          value: heroStats ? heroStats["Jump"] : noStatsString,
           inline: true,
         },
         {
           name: "Luck",
-          value: heroStats["Luck"],
+          value: heroStats ? heroStats["Luck"] : noStatsString,
           inline: true,
         },
         {
