@@ -161,7 +161,6 @@ function updateNotice() {
       puppeteer.launch({
         args: [
             '--no-sandbox',
-            '--no-zygote'
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -174,7 +173,9 @@ function updateNotice() {
                   list[0].children[3].children[1].children[0].data ===
                   settings.notices
                 ) {
-                  resolve(0);
+                  page.close().then(() => {
+                    resolve(0);
+                  })
                 } else if (!settings.notices) {
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
@@ -185,7 +186,9 @@ function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  resolve(0);
+                  page.close().then(() => {
+                    resolve(0);
+                  })
                 } else {
                   let article = $("div.article_body");
                   let text =
@@ -254,7 +257,6 @@ function updateEvent() {
       puppeteer.launch({
         args: [
           '--no-sandbox',
-          '--no-zygote'
         ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -272,7 +274,9 @@ function updateEvent() {
                         list[0].children[3].children[1].children[0].data ===
                         settings.events
                       ) {
-                        resolve(0);
+                        page.close().then(() => {
+                          resolve(0);
+                        })
                       } else if (!settings.events) {
                         settings.events =
                           list[0].children[3].children[1].children[0].data;
@@ -283,7 +287,9 @@ function updateEvent() {
                             if (err) console.log(err);
                           }
                         );
-                        resolve(0);
+                        page.close().then(() => {
+                          resolve(0);
+                        })
                       } else {
                         let article = $("div.article_body");
                         let text = "";
@@ -353,7 +359,6 @@ function updateImp() {
       puppeteer.launch({
         args: [
             '--no-sandbox',
-            '--no-zygote'
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -373,7 +378,9 @@ function updateImp() {
                           list[0].children[3].children[1].children[0].data ===
                           settings.important
                         ) {
-                          resolve(0);
+                          page.close().then(() => {
+                            resolve(0);
+                          })
                         } else if (!settings.important) {
                           settings.important =
                             list[0].children[3].children[1].children[0].data;
@@ -384,7 +391,9 @@ function updateImp() {
                               if (err) console.log(err);
                             }
                           );
-                          resolve(0);
+                          page.close().then(() => {
+                            resolve(0);
+                          })
                         } else {
                           let article = $("div.article_body");
                           let text = "";
@@ -433,7 +442,9 @@ function updateImp() {
                               if (err) console.log(err);
                             }
                           );
-                          resolve(0);
+                          page.close().then(() => {
+                            resolve(0);
+                          })
                         }
                       });
                     }, 3000);
