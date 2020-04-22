@@ -160,10 +160,6 @@ function updateNotice() {
     } else {
       puppeteer.launch({
         headless: false,
-        args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox'
-        ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
@@ -254,10 +250,6 @@ function updateEvent() {
     } else {
       puppeteer.launch({
         headless: false,
-        args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox'
-        ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
@@ -354,10 +346,6 @@ function updateImp() {
     } else {
       puppeteer.launch({
         headless: false,
-        args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox'
-        ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
