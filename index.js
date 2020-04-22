@@ -160,8 +160,13 @@ function updateNotice() {
     } else {
       puppeteer.launch({
         args: [
-            '--no-sandbox',
-          ]
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu',
+          '--disable-dev-shm-usage',
+          '--proxy-server="direct://"',
+          '--proxy-bypass-list=*'
+        ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
@@ -257,6 +262,11 @@ function updateEvent() {
       puppeteer.launch({
         args: [
           '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu',
+          '--disable-dev-shm-usage',
+          '--proxy-server="direct://"',
+          '--proxy-bypass-list=*'
         ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -358,7 +368,12 @@ function updateImp() {
     } else {
       puppeteer.launch({
         args: [
-            '--no-sandbox',
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu',
+          '--disable-dev-shm-usage',
+          '--proxy-server="direct://"',
+          '--proxy-bypass-list=*'
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
