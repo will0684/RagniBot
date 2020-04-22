@@ -196,10 +196,11 @@ function updateNotice() {
                           text += children[j].data;
                         } else if (children[j].name === "img") {
                           console.log("lul");
-                          let embed = new Discord.RichEmbed();
+                          let embed = new Discord.MessageEmbed();
                           embed.setDescription(text);
                           embed.setImage(url + children[j].attribs.src);
                           client.channels
+                            .cache
                             .get(settings.updateChannel)
                             .send(embed);
                           text = "";
@@ -215,9 +216,9 @@ function updateNotice() {
                       }
                     }
                   }
-                  let embed = new Discord.RichEmbed();
+                  let embed = new Discord.MessageEmbed();
                   embed.setDescription(text);
-                  client.channels.get(settings.updateChannel).send(embed);
+                  client.channels.cache.get(settings.updateChannel).send(embed);
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
                   fs.writeFile(
@@ -286,10 +287,11 @@ function updateEvent() {
                               if (children[j].data) {
                                 text += children[j].data;
                               } else if (children[j].name === "img") {
-                                let embed = new Discord.RichEmbed();
+                                let embed = new Discord.MessageEmbed();
                                 embed.setDescription(text);
                                 embed.setImage(url + children[j].attribs.src);
                                 client.channels
+                                  .cache
                                   .get(settings.updateChannel)
                                   .send(embed);
                                 text = "";
@@ -305,9 +307,9 @@ function updateEvent() {
                             }
                           }
                         }
-                        let embed = new Discord.RichEmbed();
+                        let embed = new Discord.MessageEmbed();
                         embed.setDescription(text);
-                        client.channels.get(settings.updateChannel).send(embed);
+                        client.channels.cache.get(settings.updateChannel).send(embed);
                         settings.events =
                           list[0].children[3].children[1].children[0].data;
                         fs.writeFile(
@@ -381,10 +383,11 @@ function updateImp() {
                                 if (children[j].data) {
                                   text += children[j].data;
                                 } else if (children[j].name === "img") {
-                                  let embed = new Discord.RichEmbed();
+                                  let embed = new Discord.MessageEmbed();
                                   embed.setDescription(text);
                                   embed.setImage(url + children[j].attribs.src);
                                   client.channels
+                                    .cache
                                     .get(settings.updateChannel)
                                     .send(embed);
                                   text = "";
@@ -400,9 +403,10 @@ function updateImp() {
                               }
                             }
                           }
-                          let embed = new Discord.RichEmbed();
+                          let embed = new Discord.MessageEmbed();
                           embed.setDescription(text);
                           client.channels
+                            .cache
                             .get(settings.updateChannel)
                             .send(embed);
                           settings.important =
