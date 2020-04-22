@@ -160,12 +160,7 @@ function updateNotice() {
     } else {
       puppeteer.launch({
         args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox',
-          '--disable-gpu',
-          '--disable-dev-shm-usage',
-          '--proxy-server="direct://"',
-          '--proxy-bypass-list=*'
+            '--no-sandbox',
         ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -262,11 +257,6 @@ function updateEvent() {
       puppeteer.launch({
         args: [
           '--no-sandbox',
-          '--disable-setuid-sandbox',
-          '--disable-gpu',
-          '--disable-dev-shm-usage',
-          '--proxy-server="direct://"',
-          '--proxy-bypass-list=*'
         ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -368,12 +358,7 @@ function updateImp() {
     } else {
       puppeteer.launch({
         args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox',
-          '--disable-gpu',
-          '--disable-dev-shm-usage',
-          '--proxy-server="direct://"',
-          '--proxy-bypass-list=*'
+            '--no-sandbox',
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
