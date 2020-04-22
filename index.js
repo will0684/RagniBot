@@ -161,6 +161,7 @@ function updateNotice() {
       puppeteer.launch({
         args: [
             '--no-sandbox',
+            '--no-zygote'
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -253,6 +254,7 @@ function updateEvent() {
       puppeteer.launch({
         args: [
           '--no-sandbox',
+          '--no-zygote'
         ]
       }).then((browser) => {
         browser.newPage().then((page) => {
@@ -351,6 +353,7 @@ function updateImp() {
       puppeteer.launch({
         args: [
             '--no-sandbox',
+            '--no-zygote'
           ]
       }).then((browser) => {
         browser.newPage().then((page) => {
