@@ -174,7 +174,7 @@ function updateNotice() {
                   list[0].children[3].children[1].children[0].data ===
                   settings.notices
                 ) {
-                  page.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   })
                 } else if (!settings.notices) {
@@ -188,7 +188,7 @@ function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  page.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   })
                 } else {
@@ -238,7 +238,7 @@ function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  page.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   });
                 }
@@ -277,7 +277,7 @@ function updateEvent() {
                         list[0].children[3].children[1].children[0].data ===
                         settings.events
                       ) {
-                        page.close().then(() => {
+                        browser.close().then(() => {
                           resolve(0);
                         })
                       } else if (!settings.events) {
@@ -291,7 +291,7 @@ function updateEvent() {
                             if (err) console.log(err);
                           }
                         );
-                        page.close().then(() => {
+                        browser.close().then(() => {
                           resolve(0);
                         })
                       } else {
@@ -339,7 +339,7 @@ function updateEvent() {
                             if (err) console.log(err);
                           }
                         );
-                        page.close().then(() => {
+                        browser.close().then(() => {
                           resolve(0);
                         });
                       }
@@ -383,7 +383,7 @@ function updateImp() {
                           list[0].children[3].children[1].children[0].data ===
                           settings.important
                         ) {
-                          page.close().then(() => {
+                          browser.close().then(() => {
                             resolve(0);
                           })
                         } else if (!settings.important) {
@@ -397,7 +397,7 @@ function updateImp() {
                               if (err) console.log(err);
                             }
                           );
-                          page.close().then(() => {
+                          browser.close().then(() => {
                             resolve(0);
                           })
                         } else {
@@ -448,7 +448,7 @@ function updateImp() {
                               if (err) console.log(err);
                             }
                           );
-                          page.close().then(() => {
+                          browser.close().then(() => {
                             resolve(0);
                           })
                         }
