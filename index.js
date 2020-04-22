@@ -159,6 +159,7 @@ function updateNotice() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: false,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox'
@@ -252,6 +253,7 @@ function updateEvent() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: false,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox'
@@ -351,6 +353,7 @@ function updateImp() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: false,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox'
