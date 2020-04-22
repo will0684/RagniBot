@@ -26,9 +26,10 @@ client.on("ready", () => {
     });
   setInterval(() => {
     updateNotice().then(() => {
-      updateEvent().then(() => {
-        updateImp();
-      });
+      updateEvent()
+      // .then(() => {
+      //   updateImp();
+      // });
     });
   }, 60000);
   console.log(`Logged in as ${client.user.tag}!`);
@@ -52,6 +53,12 @@ client.on("message", (msg) => {
     ) {
       if (err) console.log(err);
     });
+  }
+  if(msg.content.startsWith("!forcenotice")) {
+    updateNotice()
+  }
+  if(msg.content.startsWith("!forceevent")) {
+    updateEvent()
   }
   if (msg.content.startsWith("!ragni")) {
     return msg.reply(
@@ -180,7 +187,6 @@ function updateNotice() {
                 } else if (!settings.notices) {
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
-                  console.log(list[0].children[3].children[1].children[0].data)
                   fs.writeFile(
                     "settings.json",
                     JSON.stringify(settings, " ", 2),
@@ -193,6 +199,13 @@ function updateNotice() {
                   })
                 } else {
                   let article = $("div.article_body");
+                  let articleTitleSelector = $("#article_title")
+                  let articleTitle = articleTitleSelector[0].children[0].data
+                  let headerImage = $("div.article_header_image > img")
+                  let headerImageUrl = ''
+                  if (headerImage){
+                    headerImageUrl = url + headerImage[0].attribs.src
+                  }
                   let text =
                     list[0].children[3].children[1].children[0].data + "\n";
                   for (let i = 0; i < article[0].children.length; i++) {
@@ -227,6 +240,8 @@ function updateNotice() {
                     }
                   }
                   let embed = new Discord.MessageEmbed();
+                  embed.setTitle(articleTitle)
+                  embed.setImage(headerImageUrl)
                   embed.setDescription(text);
                   client.channels.cache.get(settings.updateChannel).send(embed);
                   settings.notices =
@@ -283,7 +298,6 @@ function updateEvent() {
                       } else if (!settings.events) {
                         settings.events =
                           list[0].children[3].children[1].children[0].data;
-                        console.log(list[0].children[3].children[1].children[0].data)
                         fs.writeFile(
                           "settings.json",
                           JSON.stringify(settings, " ", 2),
@@ -296,6 +310,8 @@ function updateEvent() {
                         })
                       } else {
                         let article = $("div.article_body");
+                        let articleTitleSelector = $("#article_title")
+                        let articleTitle = articleTitleSelector[0].children[0].data
                         let text = "";
                         for (let i = 0; i < article[0].children.length; i++) {
                           if (article[0].children[i].data) {
@@ -308,6 +324,7 @@ function updateEvent() {
                                 text += children[j].data;
                               } else if (children[j].name === "img") {
                                 let embed = new Discord.MessageEmbed();
+                                embed.setTitle(articleTitle)
                                 embed.setDescription(text);
                                 embed.setImage(url + children[j].attribs.src);
                                 client.channels
@@ -328,6 +345,7 @@ function updateEvent() {
                           }
                         }
                         let embed = new Discord.MessageEmbed();
+                        embed.setTitle(articleTitle)
                         embed.setDescription(text);
                         client.channels.cache.get(settings.updateChannel).send(embed);
                         settings.events =
@@ -355,113 +373,113 @@ function updateEvent() {
   });
 }
 
-function updateImp() {
-  return new Promise((resolve) => {
-    if (!settings.updateChannel) {
-      resolve(0);
-    } else {
-      puppeteer.launch({
-        headless: true,
-        args: [
-            '--no-sandbox',
-          ]
-      }).then((browser) => {
-        browser.newPage().then((page) => {
-          page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
-            setTimeout(() => {
-              page.content().then((cont) => {
-                //todo checking for update
-                //next category
-                page
-                  .$eval("label.tabList_item-important", (elem) => elem.click())
-                  .then(() => {
-                    setTimeout(() => {
-                      page.content().then((cont2) => {
-                        var $ = cheerio.load(cont2);
-                        let list = $("li.postList_item");
-                        if (
-                          list[0].children[3].children[1].children[0].data ===
-                          settings.important
-                        ) {
-                          browser.close().then(() => {
-                            resolve(0);
-                          })
-                        } else if (!settings.important) {
-                          settings.important =
-                            list[0].children[3].children[1].children[0].data;
-                          console.log(list[0].children[3].children[1].children[0].data)
-                          fs.writeFile(
-                            "settings.json",
-                            JSON.stringify(settings, " ", 2),
-                            function (err) {
-                              if (err) console.log(err);
-                            }
-                          );
-                          browser.close().then(() => {
-                            resolve(0);
-                          })
-                        } else {
-                          let article = $("div.article_body");
-                          let text = "";
-                          for (let i = 0; i < article[0].children.length; i++) {
-                            if (article[0].children[i].data) {
-                              text += article[0].children[i].data;
-                            } else {
-                              //children[j] ... attribs.src
-                              let children = article[0].children[i].children;
-                              for (let j = 0; j < children.length; j++) {
-                                if (children[j].data) {
-                                  text += children[j].data;
-                                } else if (children[j].name === "img") {
-                                  let embed = new Discord.MessageEmbed();
-                                  embed.setDescription(text);
-                                  embed.setImage(url + children[j].attribs.src);
-                                  client.channels
-                                    .cache
-                                    .get(settings.updateChannel)
-                                    .send(embed);
-                                  text = "";
-                                } else {
-                                  if (children[j].children) {
-                                    if (children[j].children[0]) {
-                                      if (children[j].children[0].data) {
-                                        text += children[j].children[0].data;
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                          let embed = new Discord.MessageEmbed();
-                          embed.setDescription(text);
-                          client.channels
-                            .cache
-                            .get(settings.updateChannel)
-                            .send(embed);
-                          settings.important =
-                            list[0].children[3].children[1].children[0].data;
-                          fs.writeFile(
-                            "settings.json",
-                            JSON.stringify(settings, " ", 2),
-                            function (err) {
-                              if (err) console.log(err);
-                            }
-                          );
-                          browser.close().then(() => {
-                            resolve(0);
-                          })
-                        }
-                      });
-                    }, 3000);
-                  });
-              });
-            }, 1000);
-          });
-        });
-      });
-    }
-  });
-}
+// function updateImp() {
+//   return new Promise((resolve) => {
+//     if (!settings.updateChannel) {
+//       resolve(0);
+//     } else {
+//       puppeteer.launch({
+//         headless: true,
+//         args: [
+//             '--no-sandbox',
+//           ]
+//       }).then((browser) => {
+//         browser.newPage().then((page) => {
+//           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
+//             setTimeout(() => {
+//               page.content().then((cont) => {
+//                 //todo checking for update
+//                 //next category
+//                 page
+//                   .$eval("label.tabList_item-important", (elem) => elem.click())
+//                   .then(() => {
+//                     setTimeout(() => {
+//                       page.content().then((cont2) => {
+//                         var $ = cheerio.load(cont2);
+//                         let list = $("li.postList_item");
+//                         if (
+//                           list[0].children[3].children[1].children[0].data ===
+//                           settings.important
+//                         ) {
+//                           browser.close().then(() => {
+//                             resolve(0);
+//                           })
+//                         } else if (!settings.important) {
+//                           settings.important =
+//                             list[0].children[3].children[1].children[0].data;
+//                           console.log(list[0].children[3].children[1].children[0].data)
+//                           fs.writeFile(
+//                             "settings.json",
+//                             JSON.stringify(settings, " ", 2),
+//                             function (err) {
+//                               if (err) console.log(err);
+//                             }
+//                           );
+//                           browser.close().then(() => {
+//                             resolve(0);
+//                           })
+//                         } else {
+//                           let article = $("div.article_body");
+//                           let text = "";
+//                           for (let i = 0; i < article[0].children.length; i++) {
+//                             if (article[0].children[i].data) {
+//                               text += article[0].children[i].data;
+//                             } else {
+//                               //children[j] ... attribs.src
+//                               let children = article[0].children[i].children;
+//                               for (let j = 0; j < children.length; j++) {
+//                                 if (children[j].data) {
+//                                   text += children[j].data;
+//                                 } else if (children[j].name === "img") {
+//                                   let embed = new Discord.MessageEmbed();
+//                                   embed.setDescription(text);
+//                                   embed.setImage(url + children[j].attribs.src);
+//                                   client.channels
+//                                     .cache
+//                                     .get(settings.updateChannel)
+//                                     .send(embed);
+//                                   text = "";
+//                                 } else {
+//                                   if (children[j].children) {
+//                                     if (children[j].children[0]) {
+//                                       if (children[j].children[0].data) {
+//                                         text += children[j].children[0].data;
+//                                       }
+//                                     }
+//                                   }
+//                                 }
+//                               }
+//                             }
+//                           }
+//                           let embed = new Discord.MessageEmbed();
+//                           embed.setDescription(text);
+//                           client.channels
+//                             .cache
+//                             .get(settings.updateChannel)
+//                             .send(embed);
+//                           settings.important =
+//                             list[0].children[3].children[1].children[0].data;
+//                           fs.writeFile(
+//                             "settings.json",
+//                             JSON.stringify(settings, " ", 2),
+//                             function (err) {
+//                               if (err) console.log(err);
+//                             }
+//                           );
+//                           browser.close().then(() => {
+//                             resolve(0);
+//                           })
+//                         }
+//                       });
+//                     }, 3000);
+//                   });
+//               });
+//             }, 1000);
+//           });
+//         });
+//       });
+//     }
+//   });
+// }
 
 client.login(token);
