@@ -159,7 +159,9 @@ function updateNotice() {
       resolve(0);
     } else {
       puppeteer.launch({
-        headless: false,
+        args: [
+            '--no-sandbox',
+          ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
@@ -249,7 +251,9 @@ function updateEvent() {
       resolve(0);
     } else {
       puppeteer.launch({
-        headless: false,
+        args: [
+          '--no-sandbox',
+        ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
@@ -345,7 +349,9 @@ function updateImp() {
       resolve(0);
     } else {
       puppeteer.launch({
-        headless: false,
+        args: [
+            '--no-sandbox',
+          ]
       }).then((browser) => {
         browser.newPage().then((page) => {
           page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
