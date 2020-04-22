@@ -159,6 +159,7 @@ function updateNotice() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: true,
         args: [
             '--no-sandbox',
         ]
@@ -255,6 +256,7 @@ function updateEvent() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: true,
         args: [
           '--no-sandbox',
         ]
@@ -357,6 +359,7 @@ function updateImp() {
       resolve(0);
     } else {
       puppeteer.launch({
+        headless: true,
         args: [
             '--no-sandbox',
           ]
