@@ -32,7 +32,7 @@ client.on("ready", () => {
       //   updateImp();
       // });
     // });
-  }, 10000);
+  }, 30000);
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on("reconnecting", () => {
