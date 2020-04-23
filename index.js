@@ -228,7 +228,6 @@ function updateNotice() {
                           console.log("lul");
                           let embed = new Discord.MessageEmbed();
                           embed.setDescription(text);
-                          console.log(children[j])
                           embed.setImage(url + children[j].attribs.src);
                           client.channels
                             .cache
@@ -249,7 +248,6 @@ function updateNotice() {
                   }
                   let embed = new Discord.MessageEmbed();
                   embed.setTitle(articleTitle)
-                  console.log(headerImageUrl)
                   embed.setImage(headerImageUrl)
                   embed.setDescription(text);
                   client.channels.cache.get(settings.updateChannel).send(embed);
