@@ -186,6 +186,7 @@ function updateNotice() {
                   list[0].children[3].children[1].children[0].data ===
                   settings.notices
                 ) {
+                  //TODO close broswer async
                   browser.close().then(() => {
                     resolve(0);
                   })
@@ -210,6 +211,7 @@ function updateNotice() {
                   let headerImageUrl = ''
                   if (headerImage){
                     headerImageUrl = url + headerImage[0].attribs.src
+                    headerImageUrl =  new URL(headerImageUrl)
                   }
                   let text =
                     list[0].children[3].children[1].children[0].data + "\n";
@@ -226,6 +228,7 @@ function updateNotice() {
                           console.log("lul");
                           let embed = new Discord.MessageEmbed();
                           embed.setDescription(text);
+                          console.log(children[j])
                           embed.setImage(url + children[j].attribs.src);
                           client.channels
                             .cache
@@ -246,6 +249,7 @@ function updateNotice() {
                   }
                   let embed = new Discord.MessageEmbed();
                   embed.setTitle(articleTitle)
+                  console.log(headerImageUrl)
                   embed.setImage(headerImageUrl)
                   embed.setDescription(text);
                   client.channels.cache.get(settings.updateChannel).send(embed);
