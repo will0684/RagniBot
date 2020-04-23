@@ -165,7 +165,7 @@ client.on("message", (msg) => {
   }
 });
 
-async function updateNotice() {
+function updateNotice() {
   return new Promise((resolve) => {
     if (!settings.updateChannel) {
       resolve(0);
@@ -186,7 +186,7 @@ async function updateNotice() {
                   list[0].children[3].children[1].children[0].data ===
                   settings.notices
                 ) {
-                  await browser.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   })
                 } else if (!settings.notices) {
@@ -199,7 +199,7 @@ async function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  await browser.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   })
                 } else {
@@ -258,7 +258,7 @@ async function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  await browser.close().then(() => {
+                  browser.close().then(() => {
                     resolve(0);
                   });
                 }
