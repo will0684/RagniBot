@@ -273,7 +273,10 @@ function updateNotice() {
         });
       });
     }
-  });
+  })
+  .catch((err) => {
+    console.log(err)
+  })
 }
 
 // function updateEvent() {
