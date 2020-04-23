@@ -165,7 +165,7 @@ client.on("message", (msg) => {
   }
 });
 
-function updateNotice() {
+async function updateNotice() {
   return new Promise((resolve) => {
     if (!settings.updateChannel) {
       resolve(0);
@@ -186,7 +186,7 @@ function updateNotice() {
                   list[0].children[3].children[1].children[0].data ===
                   settings.notices
                 ) {
-                  browser.close().then(() => {
+                  await browser.close().then(() => {
                     resolve(0);
                   })
                 } else if (!settings.notices) {
@@ -199,7 +199,7 @@ function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  browser.close().then(() => {
+                  await browser.close().then(() => {
                     resolve(0);
                   })
                 } else {
@@ -258,13 +258,16 @@ function updateNotice() {
                       if (err) console.log(err);
                     }
                   );
-                  browser.close().then(() => {
+                  await browser.close().then(() => {
                     resolve(0);
                   });
                 }
               });
             }, 1000);
           });
+        })
+        .catch((err) => {
+          console.log(err)
         });
       });
     }
