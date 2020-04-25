@@ -1,5 +1,13 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build
-,,Oldor,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
+UR,,Agrias,Ice,FFT,Holy Knight,Paladin,Cleric,4/22/2020,TBD,Limited,Single attack Resist +15,"Very Tanky Support because of MA. Can buff SPR up in an AoE, can stop and disable enemies. LB can Confuse. She has 20% magic resist so give her high faith for status effect is recommeded. Can also use Paladin sub for tanking/Taunting. Downside is low mobility and lack of range, useless in clearing normal stages.","Sub: Holy Knight
+Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
+Support 2: Knight's Faith (Agi Up, SPR Up)
+Reaction: Defense (Chance of damage reduction when taking Damage)"
+UR,,Delita,Fire,FFT,Squire,Soldier,Paladin,4/22/2020,TBD,Limited,Attack + 20%,"Bulky Slash attacker. Can debuff Fire resistance, cause Doom and AoE Stop. Can also damage enemy AP, preventing them using powerful attacks. Have a powerful self buff of 60% ATK/MAG at a cost of 40% AP consumption increase. Lack of Defense penetration make it hard for him to deal with Physical tanks.","Sub: Squire
+Support 1: Move +1
+Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
+Reaction: Paladin's Guard (Chance of damage reduction when taking Physical Damage)"
+UR,,Oldor,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
 Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use ""Hazard Break"" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
@@ -43,13 +51,13 @@ Support 1: HP Up Lv.1
 Support 2: Blade Soul (ATk/Evasion Up, DEF Down)
 Reaction: Third Eye (Chance of raising Evasion Rate for 3 turns when taking Damage (Stackable up to 3 times))"
 UR,,"Orlandu 
-",Thunder,FF Tactics,Sword Saint,Samurai,Knight,12/27/2019,TBD,"Limited
+",Thunder,FF Tactics,Sword Saint,Samurai,Knight,12/27/2019,4/22/2020,"Limited
 ","Slash ATK +10, Defense +5","Orlandu can deal high amounts of damage in addition to reduceing the enemys lightning res and defence. He's fairly tanky for main damage dealer allowing him to stay in the battle for much longer, than most other dps Characters.","Sub: Samurai
 Support 1: Thunder God (Great ATK Up, All ATK Res Down)
 Support 2: Blade Soul (ATk/Evasion Up, DEF down)
 Reaction: Auto-Refresh (Chance of recovering AP when taking Damage)"
 UR,,"Ramza 
-",Light,FF Tactics,Squire,Spellblade,Ninja,12/27/2019,TBD,"Limited
+",Light,FF Tactics,Squire,Spellblade,Ninja,12/27/2019,4/22/2020,"Limited
 ","HP +10%, Slash ATK +10","Ramza can buff her own move and jump, being able to quickly roam around the map. She can deal both Magic and Physical damage, which makes her a valueable damage dealer. She can buff her bravery, atk and mag and got access to a 3-hit elemental strike attack allowing her to stack high Chains pretty fast.","Sub: Spellblade
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Shadow Runner (Agi/Luck Up)
@@ -120,6 +128,12 @@ UR,,"Thancred
 Support 1: Initial AP Up Lv.1
 Support 2: HP Up lv.1
 Reaction: Jagular Rip (Chance of Counterattack when taking damage)"
+MR,,Mustadio,Earth,FFT,Machinist,Ranger,Thief,4/22/2020,TBD,Limited,"Accuracy +30
+Increase the chance of Blind/ Doom/ Disable statuses","Very good range attacker. His MA and TMR is very good against evasion characters. He can also cause many statuses and thanks to his MA, they have higher chance of landing. All sub jobs are useful, Thief sub can cause many statuses but requires him to move in close, which is not really recommended.","Sub: Machinist/ Ranger
+Support 1: Aim (Jump/Range +1)
+Support 2: Thief Lore (Move +1, Agi Up)
+Reaction: Reflex (Chance of evading all attacks)
+"
 MR,,Lavie,Thunder,WoTV,Paladin,Thief,Samurai,4/15/2020,TBD,,"Evasion +10, 
 AP consumption -20%","Has an excellent Master Ability. Can be built as an evasion tank with Thief Lore, Blade Soul and Third Eye Combo. When used as tank, Attract Blade is cheaper to use because of MA. When used as a Tanky debuffer (with Thief Sub), she can Steal Heart/ Steal Time. Beware that she would need high Faith for debuffs to land, thus increasing Magic Damage taken.","Sub: Paladin/Thief
 Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
@@ -152,9 +166,9 @@ Support 2: HP Up Lv.1
 Reaction: Counter Shot (Chance of countertattack when taking damage)
 "
 MR,,"Gaffgarion 
-",Dark,FF Tactics,Dark Knight,Warrior,Monk,12/27/2019,TBD,"Limited
+",Dark,FF Tactics,Dark Knight,Warrior,Monk,12/27/2019,4/22/2020,"Limited
 Free
-","Initial AP +10, Critical Damage +25%","A powerful physical attacker that learns attack up abilities( ""Sacrifice"" and ""Attack Up Lv1"") He has good range on '' Evil Blade '' and '' Evil Dead '', which can deal a lot of damage, and  `` Sword of Darkness '', which recovers HP by the amount of damage that has been dealt. Gafgarion has a lot of abilities to consume and use HP, so there is concern about survival.","Sub: Dark Knight
+","Initial AP +10, Critical Damage +25%","A powerful physical attacker that learns attack up abilities( ""Sacrifice"" and ""Attack Up Lv1"") He has good range on `` Evil Blade '' and `` Evil Dead '', which can deal a lot of damage, and  `` Sword of Darkness '', which recovers HP by the amount of damage that has been dealt. Gafgarion has a lot of abilities to consume and use HP, so there is concern about survival.","Sub: Dark Knight
 Support 1: Self-Sacrifice (Great Atk Up, All ATK Res Down)
 Support 2: Atk Up Lv.1
 Reaction: Old Mercenary (Chance of counterattack when taking damage and absorbing the damage done)"
