@@ -190,6 +190,9 @@ function updateNotice() {
                   browser.close().then(() => {
                     resolve(0);
                   })
+                  .catch((err) => {
+                    console.log(err)
+                  });
                 } else if (!settings.notices) {
                   settings.notices =
                     list[0].children[3].children[1].children[0].data;
@@ -203,6 +206,9 @@ function updateNotice() {
                   browser.close().then(() => {
                     resolve(0);
                   })
+                  .catch((err) => {
+                    console.log(err)
+                  });
                 } else {
                   let article = $("div.article_body");
                   let articleTitleSelector = $("#article_title")
@@ -262,15 +268,30 @@ function updateNotice() {
                   );
                   browser.close().then(() => {
                     resolve(0);
+                  })
+                  .catch((err) => {
+                    console.log(err)
                   });
                 }
+              })
+              .catch((err) => {
+                console.log(err)
+              })
+              .catch((err) => {
+                console.log(err)
               });
             }, 1000);
+          })
+          .catch((err) => {
+            console.log(err)
           });
         })
         .catch((err) => {
           console.log(err)
         });
+      })
+      .catch((err) => {
+        console.log(err)
       });
     }
   })
