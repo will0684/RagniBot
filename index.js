@@ -215,7 +215,7 @@ function updateNotice() {
                   let articleTitle = articleTitleSelector[0].children[0].data
                   let headerImage = $("div.article_header_image > img")
                   let headerImageUrl = ''
-                  if (headerImage){
+                  if (headerImage[0]){
                     headerImageUrl = url + headerImage[0].attribs.src
                     headerImageUrl =  new URL(headerImageUrl)
                   }
