@@ -165,122 +165,128 @@ client.on("message", (msg) => {
   }
 });
 
-function updateNotice() {
-  return new Promise((resolve) => {
+async function updateNotice() {
+  return new Promise(async (resolve) => {
     if (!settings.updateChannel) {
       resolve(0);
     } else {
-      puppeteer.launch({
+      await puppeteer.launch({
         headless: true,
         args: [
             '--no-sandbox',
         ]
-      }).then((browser) => {
-        browser.newPage().then((page) => {
-          page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
-            setTimeout(() => {
-              page.content().then((cont) => {
-                const $ = cheerio.load(cont);
-                let list = $("li.postList_item");
-                if (
-                  list[0].children[3].children[1].children[0].data ===
-                  settings.notices
-                ) {
-                  //TODO close broswer async
-                  browser.close().then(() => {
-                    resolve(0);
+      }).then(async (browser) => {
+        await browser.newPage().then(async (page) => {
+          await page.goto("https://site.na.wotvffbe.com//whatsnew").then(async () => {
+                // if (
+                //   list[0].children[3].children[1].children[0].data ===
+                //   settings.notices
+                // ) {
+                //   //TODO close broswer async
+                //   await browser.close().then(() => {
+                //     resolve(0);
+                //   })
+                //   .catch((err) => {
+                //     console.log(err)
+                //   });
+                // } else if (!settings.notices) {
+                //   settings.notices =
+                //     list[0].children[3].children[1].children[0].data;
+                //   fs.writeFile(
+                //     "settings.json",
+                //     JSON.stringify(settings, " ", 2),
+                //     function (err) {
+                //       if (err) console.log(err);
+                //     }
+                //   );
+                //   browser.close().then(() => {
+                //     resolve(0);
+                //   })
+                //   .catch((err) => {
+                //     console.log(err)
+                //   });
+                // } else {
+                  await page.waitForSelector('[data-tab="60b92b470a8c6007b8fecfdcf1d6c818"]', {
+                    visible: true,
                   })
-                  .catch((err) => {
-                    console.log(err)
-                  });
-                } else if (!settings.notices) {
-                  settings.notices =
-                    list[0].children[3].children[1].children[0].data;
-                  fs.writeFile(
-                    "settings.json",
-                    JSON.stringify(settings, " ", 2),
-                    function (err) {
-                      if (err) console.log(err);
+                  await page.click('[data-tab="60b92b470a8c6007b8fecfdcf1d6c818"]').then( async () => {
+                    let $
+                    await page.waitFor(2000)
+                    await page.content().then(async (cont) => {
+                      $ = await cheerio.load(cont)
+                    })
+                    let list = $("li.postList_item");
+                    let article = $("div.article_body");
+                    let articleTitleSelector = $("#article_title")
+                    let articleTitle = articleTitleSelector[0].children[0].data
+                    let headerImage = $("div.article_header_image > img")
+                    let headerImageUrl = ''
+                    if (headerImage[0]){
+                      headerImageUrl = url + headerImage[0].attribs.src
+                      headerImageUrl =  new URL(headerImageUrl)
                     }
-                  );
-                  browser.close().then(() => {
-                    resolve(0);
-                  })
-                  .catch((err) => {
-                    console.log(err)
-                  });
-                } else {
-                  let article = $("div.article_body");
-                  let articleTitleSelector = $("#article_title")
-                  let articleTitle = articleTitleSelector[0].children[0].data
-                  let headerImage = $("div.article_header_image > img")
-                  let headerImageUrl = ''
-                  if (headerImage[0]){
-                    headerImageUrl = url + headerImage[0].attribs.src
-                    headerImageUrl =  new URL(headerImageUrl)
-                  }
-                  let text =
-                    list[0].children[3].children[1].children[0].data + "\n";
-                  for (let i = 0; i < article[0].children.length; i++) {
-                    if (article[0].children[i].data) {
-                      text += article[0].children[i].data;
-                    } else {
-                      //children[j] ... attribs.src
-                      let children = article[0].children[i].children;
-                      for (let j = 0; j < children.length; j++) {
-                        if (children[j].data) {
-                          text += children[j].data;
-                        } else if (children[j].name === "img") {
-                          console.log("lul");
-                          let embed = new Discord.MessageEmbed();
-                          embed.setDescription(text);
-                          embed.setImage(url + children[j].attribs.src);
-                          client.channels
-                            .cache
-                            .get(settings.updateChannel)
-                            .send(embed);
-                          text = "";
-                        } else {
-                          if (children[j].children) {
-                            if (children[j].children[0]) {
-                              if (children[j].children[0].data) {
-                                text += children[j].children[0].data;
+                    let text =
+                      list[1].children[3].children[1].children[0].data + "\n";
+                      console.log(text)
+                    for (let i = 0; i < article[0].children.length; i++) {
+                      if (article[0].children[i].data) {
+                        text += article[0].children[i].data;
+                      } else {
+                        //children[j] ... attribs.src
+                        let children = article[0].children[i].children;
+                        for (let j = 0; j < children.length; j++) {
+                          if (children[j].data) {
+                            text += children[j].data;
+                          } else if (children[j].name === "img") {
+                            console.log("lul");
+                            let embed = new Discord.MessageEmbed();
+                            embed.setDescription(text);
+                            embed.setImage(url + children[j].attribs.src);
+                            client.channels
+                              .cache
+                              .get(settings.updateChannel)
+                              .send(embed);
+                            text = "";
+                          } else {
+                            if (children[j].children) {
+                              if (children[j].children[0]) {
+                                if (children[j].children[0].data) {
+                                  text += children[j].children[0].data;
+                                }
                               }
                             }
                           }
                         }
                       }
                     }
-                  }
-                  let embed = new Discord.MessageEmbed();
-                  embed.setTitle(articleTitle)
-                  embed.setImage(headerImageUrl)
-                  embed.setDescription(text);
-                  client.channels.cache.get(settings.updateChannel).send(embed);
-                  settings.notices =
-                    list[0].children[3].children[1].children[0].data;
-                  fs.writeFile(
-                    "settings.json",
-                    JSON.stringify(settings, " ", 2),
-                    function (err) {
-                      if (err) console.log(err);
-                    }
-                  );
-                  browser.close().then(() => {
-                    resolve(0);
+                    let embed = new Discord.MessageEmbed();
+                    embed.setTitle(articleTitle)
+                    embed.setImage(headerImageUrl)
+                    embed.setDescription(text);
+                    client.channels.cache.get(settings.updateChannel).send(embed);
+                    settings.notices =
+                      list[1].children[3].children[1].children[0].data;
+                    fs.writeFile(
+                      "settings.json",
+                      JSON.stringify(settings, " ", 2),
+                      function (err) {
+                        if (err) console.log(err);
+                      }
+                    );
+                    await browser.close().then(() => {
+                      resolve(0);
+                    })
+                    .catch((err) => {
+                      console.log(err)
+                    });
                   })
                   .catch((err) => {
                     console.log(err)
-                  });
-                }
-              })
-              .catch((err) => {
-                console.log(err)
-              })
+                  })
+                // }
               .catch((err) => {
                 console.log(err)
               });
-            }, 1000);
           })
           .catch((err) => {
             console.log(err)
