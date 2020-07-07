@@ -24,15 +24,15 @@ client.on("ready", () => {
     .then((jsonObj) => {
       heroData = jsonObj;
     });
-  // setInterval(() => {
-  //   updateNotice()
-  //   // .then(() => {
-  //   //   updateEvent()
-  //     // .then(() => {
-  //     //   updateImp();
-  //     // });
-  //   // });
-  // }, 60000);
+  setInterval(() => {
+    updateNotice()
+    // .then(() => {
+    //   updateEvent()
+      // .then(() => {
+      //   updateImp();
+      // });
+    // });
+  }, 60000);
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on("reconnecting", () => {
@@ -55,8 +55,8 @@ client.on("message", (msg) => {
       if (err) console.log(err);
     });
   }
-  if (msg.content.startsWith("!forcenotice")) {
-    updateNotice();
+  if(msg.content.startsWith("!forcenotice")) {
+    updateNotice()
   }
   // if(msg.content.startsWith("!forceevent")) {
   //   updateEvent()
@@ -67,7 +67,7 @@ client.on("message", (msg) => {
     );
   }
   if (msg.content.startsWith("!unit")) {
-    let noStatsString = "";
+    let noStatsString = ''
     if (commands[1] === undefined) {
       return msg.reply(
         'If you want information on a unit, type `!unit "unit name"`'
@@ -83,7 +83,7 @@ client.on("message", (msg) => {
       return msg.reply("could not find a character named " + commands[1]);
     }
     if (heroStats === undefined && heroInfo) {
-      noStatsString = "N/A";
+      noStatsString = 'N/A'
     }
     const embed = {
       title: heroStats ? heroStats["Character name"] : heroInfo["Name"],
@@ -123,7 +123,7 @@ client.on("message", (msg) => {
         },
         {
           name: "Agi",
-          value: heroStats ? heroStats["Quickness"] : noStatsString,
+          value: heroStats ?  heroStats["Quickness"] : noStatsString,
           inline: true,
         },
         {
@@ -165,112 +165,139 @@ client.on("message", (msg) => {
   }
 });
 
-async function updateNotice() {
-  return new Promise(async (resolve) => {
+function updateNotice() {
+  return new Promise((resolve) => {
     if (!settings.updateChannel) {
       resolve(0);
     } else {
-      await puppeteer
-        .launch({
-          headless: false,
-          // args: ["--no-sandbox"],
-        })
-        .then(async (browser) => {
-          await browser
-            .newPage()
-            .then(async (page) => {
-              await page.goto("https://site.na.wotvffbe.com//whatsnew");
-              await page.waitForSelector(
-                'li[data-tab=f978ea8eb85896f5efd9f75e11f200d9]',
-                {
-                  visible: true,
-                }
-              );
-              await page.waitFor(2000)
-              await page.click(
-                'li[data-tab=f978ea8eb85896f5efd9f75e11f200d9]'
-              )
-              await page.waitFor(3000);
-              let content = await page.content();
-              let $ = await cheerio.load(content);
-              let list = $("li.postList_item");
-              let article = $("div.article_body");
-              let articleTitleSelector = $("#article_title");
-              let articleTitle = articleTitleSelector[0].children[0].data;
-              let headerImage = $("div.article_header_image > img");
-              let headerImageUrl = "";
-              if (headerImage[0]) {
-                headerImageUrl = url + headerImage[0].attribs.src;
-                headerImageUrl = new URL(headerImageUrl);
-              }
-              let text = ''
-              for (let i = 0; i < article[0].children.length; i++) {
-                if (article[0].children[i].data) {
-                  text += article[0].children[i].data;
+      puppeteer.launch({
+        headless: true,
+        args: [
+            '--no-sandbox',
+        ]
+      }).then((browser) => {
+        browser.newPage().then((page) => {
+          page.goto("https://site.na.wotvffbe.com//whatsnew").then(() => {
+            setTimeout(() => {
+              page.content().then((cont) => {
+                const $ = cheerio.load(cont);
+                let list = $("li.postList_item");
+                if (
+                  list[0].children[3].children[1].children[0].data ===
+                  settings.notices
+                ) {
+                  //TODO close broswer async
+                  browser.close().then(() => {
+                    resolve(0);
+                  })
+                  .catch((err) => {
+                    console.log(err)
+                  });
+                } else if (!settings.notices) {
+                  settings.notices =
+                    list[0].children[3].children[1].children[0].data;
+                  fs.writeFile(
+                    "settings.json",
+                    JSON.stringify(settings, " ", 2),
+                    function (err) {
+                      if (err) console.log(err);
+                    }
+                  );
+                  browser.close().then(() => {
+                    resolve(0);
+                  })
+                  .catch((err) => {
+                    console.log(err)
+                  });
                 } else {
-                  //children[j] ... attribs.src
-                  let children = article[0].children[i].children;
-                  for (let j = 0; j < children.length; j++) {
-                    if (children[j].data) {
-                      text += children[j].data;
-                    } else if (children[j].name === "img") {
-                      console.log("lul");
-                      let embed = new Discord.MessageEmbed();
-                      embed.setDescription(text);
-                      embed.setImage(url + children[j].attribs.src);
-                      client.channels.cache
-                        .get(settings.updateChannel)
-                        .send(embed);
-                      text = "";
+                  let article = $("div.article_body");
+                  let articleTitleSelector = $("#article_title")
+                  let articleTitle = articleTitleSelector[0].children[0].data
+                  let headerImage = $("div.article_header_image > img")
+                  let headerImageUrl = ''
+                  if (headerImage[0]){
+                    headerImageUrl = url + headerImage[0].attribs.src
+                    headerImageUrl =  new URL(headerImageUrl)
+                  }
+                  let text =
+                    list[0].children[3].children[1].children[0].data + "\n";
+                  for (let i = 0; i < article[0].children.length; i++) {
+                    if (article[0].children[i].data) {
+                      text += article[0].children[i].data;
                     } else {
-                      if (children[j].children) {
-                        if (children[j].children[0]) {
-                          if (children[j].children[0].data) {
-                            text += children[j].children[0].data;
+                      //children[j] ... attribs.src
+                      let children = article[0].children[i].children;
+                      for (let j = 0; j < children.length; j++) {
+                        if (children[j].data) {
+                          text += children[j].data;
+                        } else if (children[j].name === "img") {
+                          console.log("lul");
+                          let embed = new Discord.MessageEmbed();
+                          embed.setDescription(text);
+                          embed.setImage(url + children[j].attribs.src);
+                          client.channels
+                            .cache
+                            .get(settings.updateChannel)
+                            .send(embed);
+                          text = "";
+                        } else {
+                          if (children[j].children) {
+                            if (children[j].children[0]) {
+                              if (children[j].children[0].data) {
+                                text += children[j].children[0].data;
+                              }
+                            }
                           }
                         }
                       }
                     }
                   }
+                  let embed = new Discord.MessageEmbed();
+                  embed.setTitle(articleTitle)
+                  embed.setImage(headerImageUrl)
+                  embed.setDescription(text);
+                  client.channels.cache.get(settings.updateChannel).send(embed);
+                  settings.notices =
+                    list[0].children[3].children[1].children[0].data;
+                  fs.writeFile(
+                    "settings.json",
+                    JSON.stringify(settings, " ", 2),
+                    function (err) {
+                      if (err) console.log(err);
+                    }
+                  );
+                  browser.close().then(() => {
+                    resolve(0);
+                  })
+                  .catch((err) => {
+                    console.log(err)
+                  });
                 }
-              }
-              let embed = new Discord.MessageEmbed();
-              embed.setTitle(articleTitle);
-              embed.setImage(headerImageUrl);
-              embed.setDescription(text);
-              client.channels.cache.get(settings.updateChannel).send(embed);
-              settings.notices =
-                list[1].children[3].children[1].children[0].data;
-              fs.writeFile(
-                "settings.json",
-                JSON.stringify(settings, " ", 2),
-                function (err) {
-                  if (err) console.log(err);
-                }
-              );
-              await browser
-                .close()
-                .then(() => {
-                  resolve(0);
-                })
-                .catch((err) => {
-                  console.log(err);
-                })
-                .catch((err) => {
-                  console.log(err);
-                });
-            })
-            .catch((err) => {
-              console.log(err);
-            });
+              })
+              .catch((err) => {
+                console.log(err)
+              })
+              .catch((err) => {
+                console.log(err)
+              });
+            }, 1000);
+          })
+          .catch((err) => {
+            console.log(err)
+          });
         })
         .catch((err) => {
-          console.log(err);
+          console.log(err)
         });
+      })
+      .catch((err) => {
+        console.log(err)
+      });
     }
-  }).catch((err) => {
-    console.log(err);
-  });
+  })
+  .catch((err) => {
+    console.log(err)
+  })
 }
 
 // function updateEvent() {
