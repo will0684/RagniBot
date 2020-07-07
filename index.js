@@ -181,16 +181,16 @@ async function updateNotice() {
             .then(async (page) => {
               await page.goto("https://site.na.wotvffbe.com//whatsnew");
               await page.waitForSelector(
-                '[data-tab="60b92b470a8c6007b8fecfdcf1d6c818"]',
+                'li[data-tab=f978ea8eb85896f5efd9f75e11f200d9]',
                 {
                   visible: true,
                 }
               );
               await page.waitFor(2000)
               await page.click(
-                'li[data-tab="60b92b470a8c6007b8fecfdcf1d6c818"]'
+                'li[data-tab=f978ea8eb85896f5efd9f75e11f200d9]'
               )
-              await page.waitFor(5000);
+              await page.waitFor(3000);
               let content = await page.content();
               let $ = await cheerio.load(content);
               let list = $("li.postList_item");
