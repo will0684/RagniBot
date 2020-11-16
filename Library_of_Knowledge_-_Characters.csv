@@ -1,11 +1,37 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build,HP,Attack,TP,Magic,AP,Agility,Move,Dexterity,Jump,Luck
+UR,,Skahal,Lightning,WOTV,,,,,,,"200 Casttime reduction
+20% Mag","Skahal is mostly a stronger Mediena. He got extremly high Magic stats and good cast time.
+Staff mage offers a 100% hit skill and a move/jump +1 buff. Time mage offers some utility with haste and quicken. He is very fragile. ","Sub: Staffmage (Time mage only for manual)
+Passiv 1: Mag up
+Passiv 2: Mag up/def up/speed cast
+Reactive: Anti-Barrier",,,,,,,,,,
+UR,,Ildyra,Water,WOTV,,,,,,,"10 Area resistance
+5 Spirit","Ilydra is a amazing Unit. She got high damage on her instacast magic, aswell as strong heals. She is mostly played as a sub dps support. She is fairly weak against all damage types except for Magic. ","Sub: Spellblade (only for resist magic)
+Passiv 1: Mag up
+Passiv 2: Level 4 to level 3
+Reactive: Magic Guard",,,,,,,,,,
+UR,,Howlet,Wind,WOTV,,,,,,,"20 Spirit Pen
+10% Mag","Howlet is a strong magic slash attacker. His main kit offers plenty of strong magic slash attacks, Redmage gives him cura, aerora and the strong Jamming Thrust. White mage offers some healing utility. He aint got any big defizits in his base resistence, but his kit offers no defensive buffs, his survival is relient on a good tank and his decent base HP.","Sub: Redmage/White Mage
+Passiv 1: Wind-Enhancing Rune
+Passiv 2: Sharp Mind
+Reactive: Magic Commutation",,,,,,,,,,
+UR,,Fryevia,Ice,WOTV,,,,,,,"10% HP
+10% Magic res","Fryevia is a Magic Tank. She got mediocre base resistence against most damage types, but high resistence against magic. She got some okay damage output with her decently high Magic and got some healing potential with White Mage sub, but this removes her potential to tank. She is an overall fairly weak UR. ","Sub: Spellblade (tank), White Mage (not your primary tank)
+Passiv 1: Providence of Wind
+Passiv 2: Saviors protection / Emerald Echo
+Reactive: Magic guard",,,,,,,,,,
+UR,,Lasswell,Ice,WOTV,,,,,,,"15 accuracy
+5 slash attack",Lasswell is a hard hitting evasion Unit. His Mirage lets him tank one attack for free. He got potential to run Dragoon sub for a strong buff and pierce damage. He is really weak to magic. ,"Sub: Samurai (Dragoon in rare cases)
+Passiv 1: Blade Soul
+Passiv 2: Atk up or Tranquil detachment
+Reactive: Third eye",,,,,,,,,,
 UR,,Halloween Rairyuu,Earth,WOTV,Rune knight,Blackmage,Paladin,,,,"HP 10% for ally
 15 earth atk for ally
 20 slash resist pen for self","Rairyuu got high damage and is deadly against Tanks with his spirit and slash pen.
 He got decent tankyness thanks to Paladin sub and immortal spirit lets him survive lethal once.
 Black mage sub offers the devastating Flare, but hes usally build for slash atk and blackmage offers no TP skills which makes paladin the preferable sub in most cases. His TMR gives a selfrevive which makes it one of the best TMR for now. He is weak to slash and Wind. ","Sub: Paladin (BM in rare cases)
-Passiv 1: Earth-Enhancing Rune
-Passiv 2: Mag UP 
+Passiv 1: Earth-Enhancing Rune, Sharp mind
+Passiv 2: Mag up, Holy knights protection
 Reactive: Magic Commutation (without Bell) / Paladins Guard (with bell)",,,,,,,,,,
 UR,,Knight of Ruin Sterne,Dark,WOTV,Knight of Ruin,Samurai,Assassin,,,,"Slash attack 10
 Defense penetration 20","RSterne is one of the best evasion units alongside Vinera. 
@@ -36,12 +62,12 @@ UR,,Delita,Fire,FFT,Squire,Soldier,Paladin,4/22/2020,TBD,Limited,Attack + 20%,"B
 Support 1: Move +1
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Paladin's Guard (Chance of damage reduction when taking Physical Damage)",,,,,,,,,,
-UR,,Oldor,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
+UR,,Oldoa,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
 Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use ""Hazard Break"" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)",,,,,,,,,,
-UR,,Kilufe,Earth,WoTV,Battle Mage,Spellblade,White Mage,4/1/2020,TBD,,"HP +20%, Cast time - 20","Kilfe is a very versatile Character, she can Tank increasing her Hate via Spellblade Sub,Heal via White Mage sub which also grands a light magic attack, or apply Confusion and Stun via Battle Mage sub, additionally she can deal decent amounts of aoe damage and increase the faith of your party.","Sub: White Mage
+UR,,Kilphe,Earth,WoTV,Battle Mage,Spellblade,White Mage,4/1/2020,TBD,,"HP +20%, Cast time - 20","Kilfe is a very versatile Character, she can Tank increasing her Hate via Spellblade Sub,Heal via White Mage sub which also grands a light magic attack, or apply Confusion and Stun via Battle Mage sub, additionally she can deal decent amounts of aoe damage and increase the faith of your party.","Sub: White Mage
 Support 1: Magic Up Lv.1
 Support 2: Defense Up Lv. 1
 Reaction: Anti-barrier (Chance of damage reduction when taking Damage)",2140,69,147,259,142,58,3,164,1,140
@@ -74,7 +100,7 @@ UR,,Kitone,Earth,WoTV,Ninja,Soldier,Time Mage,1/1/2020,TBD,,Evade +15,"Kitone is
 Support 1: Shukuchi (Move/Jump +1)/Shadow Runner (Agi & Luck up)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down)
 Reaction: Slow Counter (Chance of inflicting Slow on target for 3 turns when taking Damage)",,,,,,,,,,
-UR,,"""Whisper""",Dark,WoTV,Knight,Samurai,Spellblade,1/1/2020,TBD,,"Slash ATK +5,
+UR,,Whisper,Dark,WoTV,Knight,Samurai,Spellblade,1/1/2020,TBD,,"Slash ATK +5,
 All Attack Type Resistance +5","Whisper got 30% res to all attack types and can be build to 100% resist one or maybe even two of them, she very versatile in her tanking behavior but hard to pull of since, if shes build for Slash res and you hit a missle team her low base tankyness is a big issue. She excels against mono damage type teams and is worse than most other tanks against mixed damage. She can also be played as Evasion Tank thank to Samurais high evasion.","Tank                                                       Evade
 Sub: Spellblade                                     Sub: Samurai
 Passiv 1: HP Up Lv.1                             Passiv 1: Blade soul
