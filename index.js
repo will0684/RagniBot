@@ -68,19 +68,20 @@ client.on("message", (msg) => {
   }
   if (msg.content.startsWith("!unit")) {
     let noStatsString = ''
+    let unitName = msg.content.replace("!unit", "").trim()
     if (commands[1] === undefined) {
       return msg.reply(
         'If you want information on a unit, type `!unit "unit name"`'
       );
     }
     let heroStats = statsData.find((hero) =>
-      hero["Character name"].toLowerCase().includes(commands[1].toLowerCase())
+      hero["Character name"].toLowerCase() === unitName.toLowerCase()
     );
     let heroInfo = heroData.find((hero) =>
-      hero["Name"].toLowerCase().includes(commands[1].toLowerCase())
+      hero["Name"].toLowerCase() === unitName.toLowerCase()
     );
     if (heroStats === undefined && heroInfo === undefined) {
-      return msg.reply("could not find a character named " + commands[1]);
+      return msg.reply("could not find a character named " + unitName + ". Ensure you are entering the name exactly as it is spelled in-game.");
     }
     if (heroStats === undefined && heroInfo) {
       noStatsString = 'N/A'

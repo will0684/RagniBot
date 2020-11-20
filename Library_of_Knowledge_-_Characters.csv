@@ -1,4 +1,23 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build,HP,Attack,TP,Magic,AP,Agility,Move,Dexterity,Jump,Luck
+UR,,Luartha,Fire,WOTV,,,,,,,"10% atk
+15 Ice killer","Luartha is the hardest hitting missle unit released so far, thanks to self-sacrifice and her double gunner buff she can deal devastating damage. additionally she got very strong slashres and can apply disable. she is farly squishy overall especially against magic, has height issues and no good reactive. ","Sub: Gunner
+Passiv 1: Self-Sacrifice
+Passiv 2: Tune-Up
+Reactive: Predictive Fire",,,,,,,,,,
+UR,,Kain,Dark,FFIV,,,,,,,"20 Def pen
+10 Accuracy","Kain is an amazing DPS, he got (tho fairly low values) def pen and pierce res reduction, disable and reduces enemys healing. With Paladin sub and his unique passiv he gains a lot of free def for a main dps. His base res arent good, but not bad either, his biggest downside is low magic res. ","Sub: Paladin
+Passiv 1: (no translation yet) 60% atk 10 def
+Passiv 2: Holy knights protection/ Viking Lore
+Reactive: Paladins Guard",,,,,,,,,,
+UR,,Rosa,Ice,FFIV,,,,,,,"10% mag
+10 Spirit","Rosa is kind of a support dps, she got plenty of strong healing aswell as protect and Shell to support allies. She also got Holy. She got the benefit of hybrid damage with her missle skills, which is also her biggest issue since they are physical and shes a magic based unit. Her base res are bad except for Magic. ","Sub: White Mage
+Passiv 1: Mag up lv1
+Passiv 2: no translation yet, upgrades a skill and raises agi
+Reactive: Reflex",,,,,,,,,,
+UR,,Cecil,Light,FFIV,,,,,,,15 Light atk,"Cecil, is a hard hitting character, with strong base slash and pierce res and some decent def with his passiv and selfbuff. He also got some ulitily with disable and atkbreak. A lot of his skills reduce his own HP and hes very vurnable to magic damage. Hes also lacking def or slashpen. ","Sub: Soldier
+Passiv 1: Self-Sacrifice
+Passiv 2: Blood of the Lunarias
+Reactive: Overcomer of Ordeals",,,,,,,,,,
 UR,,Skahal,Lightning,WOTV,,,,,,,"200 Casttime reduction
 20% Mag","Skahal is mostly a stronger Mediena. He got extremly high Magic stats and good cast time.
 Staff mage offers a 100% hit skill and a move/jump +1 buff. Time mage offers some utility with haste and quicken. He is very fragile. ","Sub: Staffmage (Time mage only for manual)
@@ -10,7 +29,7 @@ UR,,Ildyra,Water,WOTV,,,,,,,"10 Area resistance
 Passiv 1: Mag up
 Passiv 2: Level 4 to level 3
 Reactive: Magic Guard",,,,,,,,,,
-UR,,Howlet,Wind,WOTV,,,,,,,"20 Spirit Pen
+UR,,Howlett,Wind,WOTV,,,,,,,"20 Spirit Pen
 10% Mag","Howlet is a strong magic slash attacker. His main kit offers plenty of strong magic slash attacks, Redmage gives him cura, aerora and the strong Jamming Thrust. White mage offers some healing utility. He aint got any big defizits in his base resistence, but his kit offers no defensive buffs, his survival is relient on a good tank and his decent base HP.","Sub: Redmage/White Mage
 Passiv 1: Wind-Enhancing Rune
 Passiv 2: Sharp Mind
@@ -42,7 +61,7 @@ Passiv 2: Blade Soul
 Reactive: Dark Shadow (evasion Build) / Murderous Glare (none evasion)",,,,,,,,,,
 UR,,Halloween Little Leela,Earth,WOTV,Arithmetician,White Mage,Ninja,,,,"10%Wind HP for ally
 15 Wind atk for ally
-10 evasion for self","Little Leela is basically a more supportive Wind version of Ildyra.
+10 evasion for self","Little Leela is one of the best support units we got.
 Her Main job offers strong offensive abilitys aswell as strong heals without cast time. 
 White Mage sub gives her Full-life and Curada.","Sub: White Mage
 Passiv 1: Level 4 to Level 3
@@ -118,6 +137,11 @@ UR,,"Ramza
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Shadow Runner (Agi/Luck Up)
 Reaction: Counter Tackle/ Magic Guard",,,,,,,,,,
+UR,,Christmas Macherie,Fire,WoTV,Dragoon,Viking,Ranger,12/18/2019,TBD,"Limited
+","AGI +10%, Ice Resistance +10",Christmas Machérie got various ranged attacks with her Jump abilitys and her high base jump allows her to abuse the map terrain and her ranger sub. She gets high amounts of atk from her ability Board and can be a main dps for boss battles. Her basic attack being melee makes it harder to efficiently abuse her high range without running out of AP. ,"Sub: Ranger
+Support 1: Viking Lore (Max Hp/Atk Up)
+Support 2: Focus (Cast time Down, Missile Atk Up)
+Reaction: Dragon's Blade (Chance of Counterattack when taking Damage & absorbs Damage dealt)",,,,,,,,,,
 UR,,Christmas Ramada,Water,WoTV,Soldier,Ninja,Monk,12/1/2019,TBD,"Limited
 ","Critical Rate +10, ATK +10%","Christmas Ramada simular to Sterne, got Soldier as Main job allowing her to get high amounts of atk and Ninja as Sub for some ranged power, also she got a 3-hit water attack allowing her to stack and maintain high water Chains. ","Sub: Ninja
 Support 1: Shukuchi (Move/Jump +1)
