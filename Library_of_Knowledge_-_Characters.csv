@@ -1,17 +1,17 @@
 Rarity,,Name,Element,Origin,Main Job,Sub Job 1,Sub Job 2,JP Release,Global Release,Note,Master Ability Effect,Short Character Overview(WIP),Recommended Build,HP,Attack,TP,Magic,AP,Agility,Move,Dexterity,Jump,Luck
-UR,,Niv'Lu,Lightning,,,,,,,,"20 def Pen 
+UR,,Niv'Lu,Lightning,WOTV,,,,,,,"20 def Pen 
 5 missle atk","Niv'Lu is the first unit to remove hate and physical barriers from the enemy. She offers a lot of different negative effects like disable and reduce def, as well as good damage and high range. She also can be used for quicken. She is the most versatile missle unit. ","Sub: recommended Gunner, but any are usable
 Passiv 1: Long range
 Passiv 2: Sniper Mastery, but any passiv combination is possible
 Reactive: Slow Counter",,,,,,,,,,
-UR,,Duane,Dark,,,,,,,,"10% HP for dark ally
+UR,,Duane,Dark,FFBE,,,,,,,"10% HP for dark ally
 15 dark atk for dark ally
 10% atk for self
 20 def pen for self",Duane is the only Unit to remove reraise so far and the only one to reduce dark res. He got high damage and fairly strong tankyness thanks to his high def. Additionally he got a strong aoe slash buff and disable. His res values are average. Even with his unqiue hate passiv he cant really be played as tank since he will loose aggro really fast and has no way to regain more hate. In short terms he is a utility bruiser who fits in almost every slash comb and plays especially well with Ruin Sterne. ,"Sub: recommended Viking, but every sub got its use
 Passiv 1: Viking Lore
 Passiv 2: recommended Knight hood, but every other passiv got its use
 Reactive: Dragon's Blade",,,,,,,,,,
-MR,,Tyytas,Dark,,,,,,,,"10 Pierce Res
+MR,,Tyytas,Dark,WOTV,,,,,,,"10 Pierce Res
 10 Missle res
 25% decreased AP Cost",Tyytas is a very niche Tank. Since Slash and magic will always be the most common damage types and he got negative 20 slash and magic res he got very few spots to shine. He got decent 20 pierce res and incredible 45% missle res with Vikings passiv and hes only usable against those 2 damages. His MA makes taunting blade a bit cheaper which is nice. ,"Sub: Paladin
 Passiv 1: Holy Knight's Protection (always)
@@ -22,11 +22,11 @@ MR,,Mariale,Light,WOTV,,,,,,,"5 hate
 Passiv 1: Thief Lore
 Passiv 2: Providence of Darkness
 Reactive: Damage distribution",,,,,,,,,,
-MR,,Loreila,Wind,,,,,,,,50 critrate,"Loreila is fairly bad, as Ranger main she gets nearly nothing from her sub job other than Viking Lore. Her base res are super bad and with MR stats and no inbuild def pen she wont deal much damage either. ","Sub: Ranger/Viking (only for atk buff)
+MR,,Loreila,Wind,WOTV,,,,,,,50 critrate,"Loreila is fairly bad, as Ranger main she gets nearly nothing from her sub job other than Viking Lore. Her base res are super bad and with MR stats and no inbuild def pen she wont deal much damage either. ","Sub: Ranger/Viking (only for atk buff)
 Passiv 1: Ranger Lore
 Passiv 2: Viking Lore
 Reactive: Reflex",,,,,,,,,,
-MR,,Chel,Ice,,,,,,,,"10% Agility
+MR,,Chel,Ice,WOTV,,,,,,,"10% Agility
 250 activation time","Chel being a green mage main there is not a lot of use for her, the Job is really bad as a main job offering only Ruin and Imperil as usable abilities. With Haste and Quicken from Time mage sub she got some use in live PvP thanks to her very low cast time. ","Sub: Time Mage
 Passiv 1: Thief Lore
 Passiv 2: Speed Cast
