@@ -81,7 +81,7 @@ client.on("message", (msg) => {
       hero["Name"].toLowerCase() === unitName.toLowerCase()
     );
     if (heroStats === undefined && heroInfo === undefined) {
-      return msg.reply("could not find a character named " + unitName + ". Ensure you are entering the name exactly as it is spelled in-game.");
+      return msg.reply("could not find a character named " + unitName + ". Ensure you are entering the name exactly as it is spelled in-game. If the mistake is on the bot's end, ask Markonnen to fix it.");
     }
     if (heroStats === undefined && heroInfo) {
       noStatsString = 'N/A'
