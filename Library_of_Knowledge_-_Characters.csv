@@ -4,7 +4,7 @@ UR,,Niv'Lu,Lightning,WOTV,,,,,,,"20 def Pen
 Passiv 1: Long range
 Passiv 2: Sniper Mastery, but any passiv combination is possible
 Reactive: Slow Counter",,,,,,,,,,
-UR,,Duane,Dark,FFBE,,,,,,,"10% HP for dark ally
+UR,,Duane,Dark,WOTV,,,,,,,"10% HP for dark ally
 15 dark atk for dark ally
 10% atk for self
 20 def pen for self",Duane is the only Unit to remove reraise so far and the only one to reduce dark res. He got high damage and fairly strong tankyness thanks to his high def. Additionally he got a strong aoe slash buff and disable. His res values are average. Even with his unqiue hate passiv he cant really be played as tank since he will loose aggro really fast and has no way to regain more hate. In short terms he is a utility bruiser who fits in almost every slash comb and plays especially well with Ruin Sterne. ,"Sub: recommended Viking, but every sub got its use
@@ -31,12 +31,12 @@ MR,,Chel,Ice,WOTV,,,,,,,"10% Agility
 Passiv 1: Thief Lore
 Passiv 2: Speed Cast
 Reactive: Slow Counter",,,,,,,,,,
-UR,,Luartha,Fire,WOTV,,,,,,,"10% atk
+UR,,Luartha,Fire ,WOTV,,,,,,,"10% atk
 15 Ice killer","Luartha is the hardest hitting missle unit released so far, thanks to self-sacrifice and her double gunner buff she can deal devastating damage. additionally she got very strong slashres and can apply disable. she is farly squishy overall especially against magic, has height issues and no good reactive. ","Sub: Gunner
 Passiv 1: Self-Sacrifice
 Passiv 2: Tune-Up
 Reactive: Predictive Fire",,,,,,,,,,
-UR,,Kain,Dark,WOTV,,,,,,,"20 Def pen
+UR,,Kain,Dark ,FFIV,,,,,,,"20 Def pen
 10 Accuracy","Kain is an amazing DPS, he got (tho fairly low values) def pen and pierce res reduction, disable and reduces enemys healing. His base res arent good, but not bad either, his biggest downside is low magic res. ","Sub: Paladin
 Passiv 1: Pride of the Dragoons
 Passiv 2: Holy knights protection/ Viking Lore
@@ -66,13 +66,13 @@ UR,,Howlet,Wind,WOTV,,,,,,,"20 Spirit Pen
 Passiv 1: Wind-Enhancing Rune
 Passiv 2: Sharp Mind
 Reactive: Magic Commutation",,,,,,,,,,
-UR,,Fryevia,Ice,WOTV,,,,,,,"10% HP
+UR,,Fryevia,Ice,FFBE,,,,,,,"10% HP
 10% Magic res","Fryevia is a Magic Tank. She got mediocre base resistence against most damage types, but high resistence against magic. She got some okay damage output with her decently high Magic and got some healing potential with White Mage sub, but this removes her potential to tank. She is an overall fairly weak UR. ","Sub: Spellblade (tank), White Mage (not your primary tank)
 Passiv 1: Providence of Wind
 Passiv 2: Saviors protection / Emerald Echo
 Reactive: Magic guard",,,,,,,,,,
-UR,,Lasswell,Ice,WOTV,,,,,,,"15 accuracy
-5 slash attack",Lasswell is a hard hitting evasion Unit. His Mirage lets him tank one attack for free. He got potential to run Dragoon sub for a strong buff and pierce damage. He is really weak to magic. ,"Sub: Samurai (Dragoon in rare cases)
+UR,,Lasswell,ice,FFBE,,,,,,,"15 accuracy
+5 slash attack",Lasswell is a hard hitting evasion Unit. His Mirage lets him tank one attack for free. He got potential to run Dragoon sub for a strong buff and pierce damage. He is really weak to magic. ,"Sub: Samurai/ Dragoon
 Passiv 1: Blade Soul
 Passiv 2: Atk up or Tranquil detachment
 Reactive: Third eye",,,,,,,,,,
@@ -95,43 +95,42 @@ UR,,Halloween Little Leela,Earth,WOTV,Arithmetician,White Mage,Ninja,,,,"10%Wind
 15 Wind atk for ally
 10 evasion for self","Little Leela is one of the best support units we got.
 Her Main job offers strong offensive abilitys aswell as strong heals without cast time. 
-White Mage sub gives her Full-life and Curada.","Sub: White Mage
+White Mage sub gives her Full-life and Curada. She can be played in evasion combs. ","Sub: White Mage
 Passiv 1: Level 4 to Level 3
 Passiv 2: Shukuchi
 Reactive: Damage Distribution",,,,,,,,,,
-UR,,Glacelia,Water,,Valkyrie,Monk,Ninja,,,,"Attack + 20%
-Slash resisrence 10%","Glacelia is a high Range, high DPS Unit and (so far) the strongest Pierce unit. 
-She got extremly high agility which can potentially be a downside, because she tends to run solo into the enemy. She also got high base slash resistence, but suffers from poor magic and missle res. ","Sub : Ninja, Valkyrie
+UR,,Glacelia,Water,WOTV,Valkyrie,Monk,Ninja,,,,"Attack + 20%
+Slash resisrence 10%","Glacelia is a very strong DPS. She is super fast, got high atk and def pen, aswell as high range and a 100% hit skill to counter evasion. She got high slash res and decet pierce res, but is very fragile to magic and missle damage.   ","Sub : Valkyrie (Monk is rare cases)
 Passiv 1: Jab Mastery 
 Passiv 2: Shadow runner OR HP Up OR Shukuchi
 Reactive: Counter Sting ",,,,,,,,,,
-UR,,Agrias,Ice,FFT,Holy Knight,Paladin,Cleric,4/22/2020,TBD,Limited,Single attack Resist +15,"Very Tanky Support because of MA. Can buff SPR up in an AoE, can stop and disable enemies. LB can Confuse. She has 20% magic resist so give her high faith for status effect is recommeded. Can also use Paladin sub for tanking/Taunting. Downside is low mobility and lack of range, useless in clearing normal stages.","Sub: Holy Knight
+UR,,Agrias,Ice,FFT,Holy Knight,Paladin,Cleric,4/22/2020,TBD,Limited,Single attack Resist +15,"Agrias might be the best tank. Her MA gives the attack res, He got high magic res and paladin sub gives her acces to a 50% physical barrier. She got access to disable, confusion, silence and stop which is insanely strong. She can deal some decent damage aswell. ","Sub: Holy Knight
 Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
-Support 2: Knight's Faith (Agi Up, SPR Up)
+Support 2: Knight's Honor/ Chivalry 
 Reaction: Defense (Chance of damage reduction when taking Damage)",,,,,,,,,,
-UR,,Delita,Fire,FFT,Squire,Soldier,Paladin,4/22/2020,TBD,Limited,Attack + 20%,"Bulky Slash attacker. Can debuff Fire resistance, cause Doom and AoE Stop. Can also damage enemy AP, preventing them using powerful attacks. Have a powerful self buff of 60% ATK/MAG at a cost of 40% AP consumption increase. Lack of Defense penetration make it hard for him to deal with Physical tanks.","Sub: Squire
-Support 1: Move +1
+UR,,Delita,Fire,FFT,Squire,Soldier,Paladin,4/22/2020,TBD,Limited,Attack + 20%,"Delita got good attack and decent tankyness. He can reduce fire res, silence and inflict stop. Sadly his .very strong buff and his stop skill are on his sub so you'd have to sacrifice those to gain access to Paladin sub. He has no defpen and is very weak to magic. ","Sub: Squire
+Support 1: Holy Knight's protection
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Paladin's Guard (Chance of damage reduction when taking Physical Damage)",,,,,,,,,,
 UR,,Oldoa,Wind,WoTV,Soldier,Viking,Assassin,4/15/2020,TBD,,"Acquired AP +30%,
-Slash, Pierce, Strike, Missile ATK Resistance +5","Slash Attacker with high ATK power and AP. Can use ""Hazard Break"" constantly with deadly power because of MA and +20% AP from ability board. Very powerful TMR with AP auto recovery and Defense penetration. Has many power skills such as Drain Force, Large Throw or Blazing Blade. Only drawbacks are low movement of 3/1 and lack of ranged skills so clearing stages take longer.","Sub: Viking
+Slash, Pierce, Strike, Missile ATK Resistance +5","Oldoa got good atk, but Soldier is a mediocre attacking job, it offers high damage skills but reduces the users HP. Viking skill got high AP costs and Assassin are too low range. Her TMR is one of the best in the game giving AP and def pen to the user. She deals good damage but is extremly fragile. ","Sub: Viking
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)",,,,,,,,,,
-UR,,Kilphe,Earth,WoTV,Battle Mage,Spellblade,White Mage,4/1/2020,TBD,,"HP +20%, Cast time - 20","Kilfe is a very versatile Character, she can Tank increasing her Hate via Spellblade Sub,Heal via White Mage sub which also grands a light magic attack, or apply Confusion and Stun via Battle Mage sub, additionally she can deal decent amounts of aoe damage and increase the faith of your party.","Sub: White Mage
+UR,,Kilphe,Earth,WoTV,Battle Mage,Spellblade,White Mage,4/1/2020,TBD,,"HP +20%, Cast time - 20",Kilphe is one of the best magic units. She got very high physical res with her high def and physical barrier. She counters evasion with access to 2 100% hit skill and got some healing with White mage sub. Spellblade sub gives her high magic res and a magic barrier aswell as access to taunting blade which makes her able to be played as tank. Her damage isnt super high and shes fragile to pierce damage. ,"Sub: depending on playsytle 
 Support 1: Magic Up Lv.1
-Support 2: Defense Up Lv. 1
+Support 2: Defense Up/Providence of Lightning
 Reaction: Anti-barrier (Chance of damage reduction when taking Damage)",2140,69,147,259,142,58,3,164,1,140
 UR,,"Warrior of Light 
-",Light,FFI,Light Warrior,Spellblade,Knight,3/25/2020,TBD,Limited,"ATK +20%, Defense +5","Warrior of Light is a great Tank with resistances against every damage type except Pierce. He got a teleporting damage skill giving him the opportunity to quickly engage as frontline and maintain his role as enemys focus with his Skill, which increases hate. Which also makes him able to run a different Vision Card other than 'Vow of Love' due to his high amounts of Hate. ","Sub: Light Warrior
+",Light,FFI,Light Warrior,Spellblade,Knight,3/25/2020,TBD,Limited,"ATK +20%, Defense +5","Warrior of Light is one of the best tanks. He got a TP hate skill, can inflict stop and reduce enemys atk/mag. He got high slashres and with Spellblade sub access to high magic res aswell. He is very fragile to pierce damage. ","Sub: Light Warrior/Spellblade (dragoon in rare cases)
 Support 1: Beginning Warrior (Max HP up, DEF Up)
 Support 2: Providence of Dark: Magic ATK Res Up, Dark Res Up)
-Reaction: Warrior's Pride: 3 turn DEF up when hit by Physical Atk",,,,,,,,,,
-UR,,Rain,Fire,FFBE,Granshelt Knight,Red Mage,Knight,3/17/2020,7/1/2020,,Spirit +15,"Rain is a mainly a Magic tank, hes able to basically negate any kind of magic damage. He can be build to somewhat withstand physical damage aswell but is greatly outshine by WoL and Engel. He also can be build as magic dps and greatly fullfill that role. . ","Sub: Red Mage/ Grandshelt Knight
+Reaction: Dragon's Blade",,,,,,,,,,
+UR,,Rain,Fire,FFBE,Granshelt Knight,Red Mage,Knight,3/17/2020,7/1/2020,,Spirit +15,"Rain is the best magic tank. His high spirit and magic res lets him take nearly no damage from magic attacks. He can reduce fire res and build up high chains with his multi hit attack, which makes him amazing for Raid. Red mage sub gives him the very powerful long range jamming thrust, which in addition to his high magic stat makes him able to be play as a magic dps. He is very fragile to physical damage. ","Sub: Red Mage/ Grandshelt Knight
 Support 1: Spirit Up Lv.1/ HP UP Lv.1
 Support 2: Intersifying Power (Magic Up, Enhance skills)
-Reaction: Sword Guard: Chance to reduce damage when taking damage",,,,,,,,,,
-UR,,Vinera,Dark,WoTV,Assassin,Thief,Double Gunner,3/1/2020,7/15/2020,,"ATK +10%, Evade +10","Vinera got High mobility.Various debuff skills to reduce defense, very useful for Physical team in Raid and Boss stages. Have defense penetration passive. Really high evasion. Cancer for Arena and PvP","Sub: Double Gunner
+Reaction: Sword Guard (against physical)/Magic reflex(against magic)",,,,,,,,,,
+UR,,Vinera,Dark,WoTV,Assassin,Thief,Double Gunner,3/1/2020,7/15/2020,,"ATK +10%, Evade +10",Vinera is the best evasion Unit. She got high damage and with Dual Gunner sub some decent range attacks. Her high agi and high movement makes it hard for her to be played outside of evasion combs.,"Sub: DualGunner
 Support 1: Thief Lore ( Move+1, Agi Up)
 Support 2: Tune-up (Agi Up, Def Penetration Up)
 Reaction: Dark Shadow (Chance of raising own Evasion Rate for 3 turns when Taking damage (Stackable up to 3 times) & CT Up)",,,,,,,,,,
@@ -139,69 +138,77 @@ UR,,Viktora,Ice,WoTV,Dragoon,Soldier,Thief,2/14/2020,TBD,,"Pierce ATK +10,  Cast
 Support 1: Self- Sacrifice (Great ATK Up, All Res Down)
 Support 2: Thief Lore (Move+1, Agi Up)
 Reaction: Dragon's Blade (Chance of Counterattack when taking Damage & absorbs Damage dealt)",,,,,,,,,,
-UR,,Lucia,Wind,WoTV,Double Gunner,Ranger,Monk,2/1/2020,TBD,,"ATK +10%, Earth Element Killer +15%","Lucia is a great DPS, her high agility and long range make her really scary. Ranger sub gives her even more range and the ability to use high terrain to her advantage.Her defense ignore passiv greatly increases her damage against tanks, and with her MA especially Earth tanks like Mont. ","Sub: Double Gunner/Ranger
+UR,,Lucia,Wind,WoTV,Double Gunner,Ranger,Monk,2/1/2020,TBD,,"ATK +10%, Earth Element Killer +15%","Lucia is good dps. Sharing the same role and main job as Luartha she got lower dps than her, but a better reactive with Reflex and access to 100% hit Sharpshoot. Dual Gunner is very strong for chaining. ","Sub: Ranger
 Support 1: Ranger Lore (Range +1 & ACC UP)
 Support 2: Tune-up (Agi Up, Defense Penetration Up)
 Reaction: Reflex (Chance of evading all attacks)",,,,,,,,,,
-UR,,Miranda,Water,WoTV,Red Mage,Time Mage,Paladin,1/15/2020,TBD,,"ATK +15%, MAG +15%, Defense +5","Miranda can reach high Mag numbers with her Ability Board and Master ability, thanks to the Red Mage sub she gets high initial AP from the Board, allowing her to cast her powerful LB right at the start of Combat. She got good support abilitys with Time Mage sub and gets reasonably tanky for a main dps. ","Sub: Time Mage
+UR,,Miranda,Water,WoTV,Red Mage,Time Mage,Paladin,1/15/2020,TBD,,"ATK +15%, MAG +15%, Defense +5","Miranda is a bruiser. As Redmage main she got some decent damage and healing skills. Paladin gives her some nice def and time mage gives her a strong sub job with haste and quicken. She can be very strong with the right team, but Ildyra plays a simular role with a way stronger kit. ","Sub: Time Mage
 Support 1: Speed Cast (reduce Casttime)
 Support 2: Holy Knight's Protection (Max HP Up, DEF Up)
-Reaction: Paladins Guard (Chance to reduce physical damage)",,,,,,,,,,
-UR,,Kitone,Earth,WoTV,Ninja,Soldier,Time Mage,1/1/2020,TBD,,Evade +15,"Kitone is a highly mobile dps unit, she got high base move and jump and can even further increase her mobility with her skills. She can also buff up her patk similar to Sterne which allows high damage spikes. Her biggest issues are her low range and survivability. ","Sub: Ninja
-Support 1: Shukuchi (Move/Jump +1)/Shadow Runner (Agi & Luck up)
-Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down)
-Reaction: Slow Counter (Chance of inflicting Slow on target for 3 turns when taking Damage)",,,,,,,,,,
+Reaction: Paladins Guard (agaisnt physical)/ Magic reflex (against magic)",,,,,,,,,,
+UR,,Kitone,Earth,WoTV,Ninja,Soldier,Time Mage,1/1/2020,TBD,,Evade +15,"Kitone is the best Drain Force unit. She is fast, got decent evasion an fairly good atk. She suffers like many older DPS unit from no def pen and evasion is fairly easy to counter ith 100% hit skills. Outside of her Drain force niche shes not really played.  ","Sub: Soldier
+Passiv 1: Shukuchi 
+Passiv 2: Shadowrunner/self-sacrifice
+Reaction: Slow Counter ",,,,,,,,,,
 UR,,Whisper,Dark,WoTV,Knight,Samurai,Spellblade,1/1/2020,TBD,,"Slash ATK +5,
-All Attack Type Resistance +5","Whisper got 30% res to all attack types and can be build to 100% resist one or maybe even two of them, she very versatile in her tanking behavior but hard to pull of since, if shes build for Slash res and you hit a missle team her low base tankyness is a big issue. She excels against mono damage type teams and is worse than most other tanks against mixed damage. She can also be played as Evasion Tank thank to Samurais high evasion.","Tank                                                       Evade
-Sub: Spellblade                                     Sub: Samurai
-Passiv 1: HP Up Lv.1                             Passiv 1: Blade soul
-Passiv 2: Providence of Light                Passiv 2: HP UP Lv 1
-Reactve: Sword Guard                          Reactive: Third Eye",,,,,,,,,,
+All Attack Type Resistance +5","Whisper got 30% res to all attack types and can be build to 100% resist one or even two of them, she is very versatile in her tanking behavior but hard to pull of since, if shes build for Slash res and you hit a missle team her low base tankyness is a big issue. She excels against mono damage type teams and is worse than most other tanks against mixed damage. Her damage is terrible and she offers nearly no utility she is just there to tank. ","                    
+Sub: Spellblade   
+Passiv 1: HP Up Lv.1   
+Passiv 2: Providence of Light    
+Reactve: Sword Guard     ",,,,,,,,,,
 UR,,"Orlandu 
 ",Thunder,FF Tactics,Sword Saint,Samurai,Knight,12/27/2019,4/22/2020,"Limited
-","Slash ATK +10, Defense +5","Orlandu is the good at 'almost' everything Unit. He is a great DPS, can be build for evasion combs and can even be build tanky enough to exel in bruiser combs. He can reduce defence and lightning res to even further increase hs damage. His only downside is his low chaining potential. ","Sub: Samurai/Sword Saint
+","Slash ATK +10, Defense +5","Orlandu got high atk and decently high hp. He got very high range with crush armor, he can reduce def and atk, silence and reduce lightning res. He can also increase allies evasion and selfhaste with his limit. He got no inbuild defpen and doesnt reduce slashres, hes also weak to magic and pierce, so hes slowly falling out of meta. ","Sub: Samurai/Sword Saint
 Support 1: Thunder God (Great ATK Up, All ATK Res Down)
 Support 2: Blade Soul (ATk/Evasion Up, DEF down)
 Reaction: Auto-Refresh (Chance of recovering AP when taking Damage)",,,,,,,,,,
 UR,,"Ramza 
 ",Light,FF Tactics,Squire,Spellblade,Ninja,12/27/2019,4/22/2020,"Limited
-","HP +10%, Slash ATK +10","Ramza is extremly versatile. Hes fairly tanky got acces to magic and physical damage if he uses spellblade as sub, which is recommended. He can deal decent amounts of damage, he can be played as Tank thanks to access to taunting spell and also got some buffs, debuffs and a heal. He is a good addition to almost every team. ","Sub: Spellblade
+","HP +10%, Slash ATK +10","Ramza is very versatile. He got decently high damage and decent base res, he got negative magic res, but spellblade sub negates this issue. He can reduce enemys atk/mag and buff his allies atk/mag, he can tank with taunting spell and has very good chain potential. Ramaza can do a lot but is not super good at any of it. He's just an okay unit. ","Sub: Spellblade
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Shadow Runner (Agi/Luck Up)
 Reaction: Counter Tackle/ Magic Guard",,,,,,,,,,
 UR,,Christmas Macherie,Fire,WoTV,Dragoon,Viking,Ranger,12/18/2019,TBD,"Limited
-","AGI +10%, Ice Resistance +10",Christmas Machérie got various ranged attacks with her Jump abilitys and her high base jump allows her to abuse the map terrain and her ranger sub. She gets high amounts of atk from her ability Board and can be a main dps for boss battles. Her basic attack being melee makes it harder to efficiently abuse her high range without running out of AP. ,"Sub: Ranger
+","20 ice res for self
+20% agi for self
+10 defpen for self
+10% hp for fire ally
+15 fire atk for fire ally
+","Machérie (Winter) is a decent Unit. She is very fast and got a good amount of atk.she only got 10 def pen but its better than nothing. She got high range with ranger sub and her jump attacks. She also has good slash and magic res, which are the most common damage types but suffers from bad strike and missle res. ","Sub: Ranger
 Support 1: Viking Lore (Max Hp/Atk Up)
 Support 2: Focus (Cast time Down, Missile Atk Up)
-Reaction: Dragon's Blade (Chance of Counterattack when taking Damage & absorbs Damage dealt)",,,,,,,,,,
+Reaction: Reflex",,,,,,,,,,
 UR,,Christmas Ramada,Water,WoTV,Soldier,Ninja,Monk,12/1/2019,TBD,"Limited
-","Critical Rate +10, ATK +10%","Christmas Ramada simular to Sterne, got Soldier as Main job allowing her to get high amounts of atk and Ninja as Sub for some ranged power, also she got a 3-hit water attack allowing her to stack and maintain high water Chains. ","Sub: Ninja
+","20 crit rate for self
+30% atk for self
+10% h for water ally
+15 water atk for water ally","Ramada (Winter) is a better version of normal Sterne. She got high atk and good agility, compared to Sterne she also got better res and higher HP. But she still got the same problems. Her kit offers no utility and even with her better stats surviving is hard. ","Sub: Ninja
 Support 1: Shukuchi (Move/Jump +1)
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down)
 Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)",,,,,,,,,,
-UR,,Yerma,Wind,WoTV,Viking,Knight,Thief,12/1/2019,4/8/2020,,"Critical Damage +15%, Accuracy +10",Yerma is a very valuable Unit. She can reach extremly high damage numbers and thanks to Viking she got acces to one of the hardest hitting skills in the game 'full-bodied blow' Her Limit is extremly strong reducing the enemys elemental resistence and reduceing her own damage taken for 3 turns. With this Limit she is a really scary bruiser and higly underrated. Additionally her Limit reduceing elemental res and thiefs 'steal time' make her valueable for any raid team.,"Sub: Viking
+UR,,Yerma,Wind,WoTV,Viking,Knight,Thief,12/1/2019,4/8/2020,,"Critical Damage +15%, Accuracy +10","Yerma is a very valueable PvE Unit. Viking offers many hard hitting skills and thief sub gives her access to steal time. Her Limit reduces all attack resistence and increases her own. Her kit is very valueable for Raid. She got high atk and agi. For PvP she is lacking utility, Vikings Ap cost are way too high, also her base res are very bad. ","Sub: Viking/Thief
 Support 1: Viking Lore (Max HP/ Atk Up)
 Support 2: Thief Lore (Move +1, Agi Up)
 Reaction: Sword Guard (Chance of Damage reduction when taking Damage)",,,,,,,,,,
-UR,,Frederika,Thunder,WoTV,Gunner,Knight,Ranger,11/22/2019,4/1/2020,,Missile ATK +15,"Frederika excels in High Range and good mobility, both in addition to each other results that she she can stay out of the enemys range, while killing them with her high range. She got a good amount of debuffs and can use the Ranger sub to make use of the heights advantage on certain map. With her Sniping skill she can counter high evasion units.","Sub: Gunner/ Ranger
+UR,,Frederika,Thunder,WoTV,Gunner,Knight,Ranger,11/22/2019,4/1/2020,,Missile ATK +15,"Frederika is very easy to raise because her shards are offered in Friendship coin shop. She got very high range access to 100% hit sharpshoot and the very strong diamond aoe barrage, additionally she got strong buffs and negative effects like disable. She is lacking defpen and only got medium damage. Highly recommended to raise her. ","Sub: Gunner/ Ranger
 Support 1: Shukuchi/ Shadow Runner
 Support 2: Concentration/ Ranger Lore
 Reaction: Reflex (Chance of evading all attacks)
 ",,,,,,,,,,
-UR,,Sterne,Dark,WoTV,Soldier,Dragoon,Ninja,11/14/2019,3/25/2020,,Critical Damage +25%,"Sterne is a very strong attacker, with good mobility. His Ninja sub job, allows him to get move/jump +1 and gives him a ranged skill to kill units from afar. He can reach really high damage numbers, but suffers from low survivability.  ","Sub: Ninja 
+UR,,Sterne,Dark,WoTV,Soldier,Dragoon,Ninja,11/14/2019,3/25/2020,,Critical Damage +25%,"Sterne is a very mediocre dps. He got high atk and good movement, but he lacks def pen and has AP problems. Ninja sub gives him high range with Shuriken and Dragoon gives him pierce damage. He got bad res values and low hp. He can chain well with the high meta dark units Ruin Sterne and Kain. ","Sub: Ninja 
 Support 1: Shukuchi (Move/Jump +1) 
 Support 2: Self- Sacrifice (Great Atk Up, All Attack Res Down) 
 Reaction: Counter Slash (Chance of Counterattack when taking Physical Damage)",,,,,,,,,,
 UR,,Gilgamesh,Ice,WoTV,Winged One,Time Mage,Soldier,11/14/2019,3/25/2020,,"Speed +10%, Slash ATK +10
-Level 80: HP +1000, Accuracy +15","Gilgamesh is very versatile, hes tanky, can deal good amounts of damage and additionally got support potential. His unique main Job gives him an aoe attack that reduces Slash resistance and he can use Time mage sub for haste and quicken  and strong Magic attacks. His biggest downside is being SUPER expensive to build, he cost about twice as much as other UR units. ","Sub: Time Mage
-Support 1: AP gain Up Lv. 1
-Support 2: Speed Cast (Cast Time Down)
-Reaction: Clairvoyant Blade (Chance of pre-emptive attack when about to take physical Damage)",,,,,,,,,,
-UR,,Ayaka,Wind,FFBE,White Mage,Green Mage,Time Mage,11/14/2019,3/25/2020,,"HP +10%, Stop Resistance +20","Ayaka is the best Support unit in the Game. Her heals are extremly strong, and her high amount of starting AP gives her access to her Limit Turn one. Time mage sub gives her haste and the strong skills 'comet' and 'meteor'  makeing her playable as magic dps. which is supported by her high amount of MAG. Being White mage also gives her access to 2 of the strongest skills 'Holy' and Full life'. ","Sub: Time Mage
+Level 80: HP +1000, Accuracy +15","Gilgamesh is the only unit so far to reduce slash res. He got can selfhaste and buff with a 50% damage redcution shield for 3 hits. He is one of the few units with a diamond aoe and the only one with hybrid damage. He works well in almost every slash team, he got decent damage and can be played wth time mage sub for quicken in manaul PvP. He highly relies on his damage reduction shield to survive since his base res are terrible also his damage isnt high enough to be played as solo dps.  ","Sub: Soldier/ Time mage
+Support 1: Self-Sacrifice
+Support 2: whatever you need
+Reaction: Clairvoyant Blade",,,,,,,,,,
+UR,,Ayaka,Wind,FFBE,White Mage,Green Mage,Time Mage,11/14/2019,3/25/2020,,"HP +10%, Stop Resistance +20","Ayaka is on of the best support units in the Game. She got high mag% which allows for very strong heals, fulllife to revive a fainted ally with full hp and 100% hit holy to counter evasion units. Time Mage sub gives her access to Comet for some extra damage aswell as one of the best buffs haste to buff your allies. Her limit is a very strong diamond aoe instacast heal, which also removes stop and gives immunity to it. ","Sub: Time Mage
 Support 1: Speed Cast (Cast Time Down)
-Support 2: Emerald Echo (Buff/ Debuff cast by self +1 turn)
-Reaction: Dispel Counter (Removes all Buffs from enemy when taking Damage)",,,,,,,,,,
-UR,,Mediena,Ice,FFBE,Black Mage,Green Mage,Ninja,11/14/2019,3/25/2020,,MAG +30%,Mediena is ultimate farmer. Very high AGI and starting AP and her Diamond aoe limitbreak let her clear waves of enemys within a blink of an eye. Blackmages Flare and blizzaga make her a great DPS for Raid content. Her really low tankyness and suicidal AI make her a bad choice for any auto PvP content. ,"Sub: Black Mage/ Green Mage
+Support 2: Null CT Change
+Reaction: Slow Counter",,,,,,,,,,
+UR,,Mediena,Ice,FFBE,Black Mage,Green Mage,Ninja,11/14/2019,3/25/2020,,MAG +30%,"Mediena is a free unit and highly recommended for new player as farmer. She got high starting AP aswell as high Mag stats and very good agility. She is one of the best options for PvE and Multi quests. Blackmage is a bad PvP job with high cast time, greenmage got very niche usage and Ninja only offers some TP skills for long fights and the strong passivs. She is extremly fragile and dies to almost everything one hit. No go for auto PvP, niche usage in manual PvP. ","Sub: Black Mage/ Green Mage
 Support 1: MAG Up Lv.1
 Support 2: Shukuchi / Shadow runner
 Reaction: Magic Counter (Chance of Magic Counterattack when taking Damage)",,,,,,,,,,
@@ -213,28 +220,28 @@ UR,,Oelde,Fire,WoTV,Lancer,Monk,Samurai,11/14/2019,3/25/2020,,"HP +10%, ATK +20%
 Support 1: Blade Soul (ATK/Evasion Rate Up & DEF down)
 Support 2: Deadly Mastery/ Pierce Mastery
 Reaction: Counter Thrust / Third Eye",,,,,,,,,,
-UR,,Aileen,Earth,FFBE,Lancer,Warrior,Soldier,11/14/2019,3/25/2020,,"TP +10%, Pierce ATK +10","Aileen, is scary, for you and the enemy. She got extremly high damage and can murder almost everything, but suffers from no tankyness at all. She got low range and mobility and unlike oelde not even the ability to play in a evasion comb. She is a high risk high reward character, if you're able to make her survive she'll kill everything. ","Sub: Lancer
+UR,,Aileen,Earth,FFBE,Lancer,Warrior,Soldier,11/14/2019,3/25/2020,,"TP +10%, Pierce ATK +10","Aileen, is one of the worst UR units. She got high atk, but Lancer is a bad Main job with weak utility and low range skills. She has no def pen, low hp and bad overall res values. She can be fairly usefull for PvE, but is very bad in PvP. ","Sub: Lancer
 Support 1: Self-Sacrifice (Great ATK Up & All ATK Res Down)
 Support 2: Deadly Mastery/ Pierce mastery 
 Reaction: Counter Thrust (Chance of Counterattack when taking Physical Damage)",,,,,,,,,,
-UR,,Robb,Light,WoTV,Samurai,Lancer,Soldier,11/14/2019,3/25/2020,,"Critical Rate +10, Evade +5","Robb is a fast Damage dealer, who excels in high Crit and Evasion, he got good AP management, which is nice for long fights and is overall a really 'easy to use' dps. He got low movement and tankyess, which makes him less appealing than other dps units","Sub: Lancer/ Samurai
+UR,,Robb,Light,WoTV,Samurai,Lancer,Soldier,11/14/2019,3/25/2020,,"Critical Rate +10, Evade +5","Robb is a very underwhelming UR, he is fast and got decently high atk, but hes missing def pen and dies very easily. Samurai is a very underwhelming main job the strong buffs are in the sub, so he can use his other jobs as sub or has to sacrifice his buffs. ","Sub: Lancer/ Samurai
 Support 1: Self-Sacrifice (Great ATK Up & All ATK Res Down)
-Support 2: Deadly Mastery (Crit Rate Up)/ Blade Soul (ATK/Evasion Rate Up & DEF down)
+Support 2: Blade Soul (ATK/Evasion Rate Up & DEF down)
 Reaction: Third Eye",,,,,,,,,,
-UR,,Engelbert,Light,WoTV,Paladin,Knight,Monk,11/14/2019,3/25/2020,,Defense +15,"Engelbert is one of the best Tanks, hes potentially able to negate any physical damage, and with paladings taunting blade is able to increase his hate. With his high amount of selfbuffs and low movement it is hard for him to be the frontline and take enemys aggro. He is hard countered by Magic damage and deals almost no damage. ","Sub: Paladin
+UR,,Engelbert,Light,WoTV,Paladin,Knight,Monk,11/14/2019,3/25/2020,,Defense +15,"Engelbert is one of the better normal pool tanks. He got extremly high HP, very high def and overall good res values. Do to his very high luck he can be build as evasion tank. He is very slow and very fragile to magic damage. ","Sub: Paladin
 Support 1: Holy Knight's Protection (Max HP Up, DEF Up)
 Support 2: HP up Lv.1
 Reaction: Sword Guard (Chance of damage reduction when taking Damage)",,,,,,,,,,
-UR,,Xiza,Dark,WoTV,Monk,Thief,Lancer,11/14/2019,3/25/2020,,"Strike ATK +5, Evade +10","Xizas main use is in  manual PvP with her high agility and Thiefs 'steal heart'. Monks 'Pummel' and Thiefs 'Steal time' make her very strong for chain building. Her TMR is one of the best in the game. giving 25% AP regen per turn, for 3 turns in addition to the very valueable 7 agi it provides. ","Sub: Monk
+UR,,Xiza,Dark,WoTV,Monk,Thief,Lancer,11/14/2019,3/25/2020,,"Strike ATK +5, Evade +10","Xizas main use is in  manual PvP with her high agility and Thiefs 'steal heart'. Monks 'Pummel' and Thiefs 'Steal time' make her very strong for chain building. Her TMR is the best in the game. giving 25% AP regen per turn, for 3 turns in addition to the very valueable 7 agi it provides. She is highly recommended to build for the TMR.","Sub: Thief
 Support 1: Strike Mastery / HP UP Lv1
 Support 2: Thief Lore (Move +1, Agi Up)
 Reaction: Fist Counter / Quick Action
 ",,,,,,,,,,
 UR,,"Thancred 
-",Light,FFXIV,Gunbreaker,Dragoon,Red Mage,11/14/2019,3/25/2020,Limited,"HP +10%, Slash ẠTK +10","Thancred is a Bruiser, being able to tank while dealing good amounts of damage, he has some potential do deal ranged damage as well as supporting, especially Tanks, increasing def and granting health regen to other allies","Sub: Gunbreaker
+",Light,FFXIV,Gunbreaker,Dragoon,Red Mage,11/14/2019,3/25/2020,Limited,"HP +10%, Slash ẠTK +10","Thancred got very high hp aswell as good slashres, missle res and insanely good strike res. He got decent damage and with Dragoon sub access to slash aswell as pierce damage. Hes lacking utility and got extremly bad magic res.","Sub: Dragoon
 Support 1: HP UP Lv1
 Support 2: whatever you need
-Reaction: Jagular Rip (Chance of Counterattack when taking damage)",,,,,,,,,,
+Reaction: Dragon's Blade (recommended), Magic reflex (when facing magic)",,,,,,,,,,
 MR,,Mustadio,Earth,FFT,Machinist,Ranger,Thief,4/22/2020,TBD,Limited,"Accuracy +30
 Increase the chance of Blind/ Doom/ Disable statuses","Very good range attacker. His MA and TMR is very good against evasion characters. He can also cause many statuses and thanks to his MA, they have higher chance of landing. All sub jobs are useful, Thief sub can cause many statuses but requires him to move in close, which is not really recommended.","Sub: Machinist/ Ranger
 Support 1: Aim (Jump/Range +1)
