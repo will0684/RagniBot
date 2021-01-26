@@ -94,66 +94,8 @@ client.on("message", (msg) => {
           value: `${heroInfo["Rarity"]}`,
         },
         {
-          name: "Origin",
-          value: `${heroInfo["Origin"]}`,
-        },
-        {
-          name: "HP",
-          value: heroStats ? heroStats["HP"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Atk",
-          value: heroStats ? heroStats["Attack"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "TP",
-          value: heroStats ? heroStats["TP"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Mag",
-          value: heroStats ? heroStats["Magic"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "AP",
-          value: heroStats ? heroStats["AP"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Agi",
-          value: heroStats ?  heroStats["Quickness"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Move",
-          value: heroStats ? heroStats["Move"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Dex",
-          value: heroStats ? heroStats["Dexterity"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Jump",
-          value: heroStats ? heroStats["Jump"] : noStatsString,
-          inline: true,
-        },
-        {
-          name: "Luck",
-          value: heroStats ? heroStats["Luck"] : noStatsString,
-          inline: true,
-        },
-        {
           name: "Character Overview",
           value: heroInfo["Short Character Overview(WIP)"],
-        },
-        {
-          name: "Master Ability Effect",
-          value: heroInfo["Master Ability Effect"],
         },
         {
           name: "Recommended Build",
