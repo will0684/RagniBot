@@ -1,19 +1,55 @@
 Rarity,Name,Short Character Overview(WIP),Recommended Build,HP,Attack,TP,Magic,AP,Agility,Move,Dexterity,Jump,Luck
+MR,Ellshra,"Ellshra is a very valuable MR
+She got very low HP, very high mag and decent agi.
+
+Time Mage main offers access to Comet and Meteor as strong none elemental atk, as well as Quicken.
+
+Time mage sub only really offers Haste or maybe transposition for manual play, might have some use depending on usage. 
+
+Rune Knight sub gives her access to two hard hitting slash atk, a magic lifedrain that gives her a mag buff for one turn and a 3 turn mag buff that reduces her own hp. This is her best sub if you plan to play her as DPS. 
+
+White Mage sub offers Protect/Shell to support her allies and Curada/Curaga for some healing. The best option if played as Support. 
+
+Her big problem is her terrible base HP and her base res, she dies to almost everything in one hit and rune knights skills reducing her own HP doesnt improve that.
+
+She can be played for quicken in Live PvP, as Healer Support with White Mage or as DPS with Rune Knight. She doesnt offer anything special for most PvE Content. ","Sub: White mage (Support / Rune Knight (DPS) / Time mage in rare cases
+Passiv 1: Speed Cast (WM/TM sub) / Light-Enhancing Rune (RK sub)
+Passiv 2: Sharp Mind
+Reactive: Slow Counter (WM/TM sub) / Magic Commutation (RK sub)",,,,,,,,,,
+UR,Rhaldor,"Rhaldor is fairly underwhelming Unit
+He got High base HP and atk as well as good agi
+
+His new Main Job Pugilist offers a teleport, a low range human killer skill and a skill that gets more damage if he got hit more than 5 times, as well as a max hp/def buff for him self and a aoe strike atk/defpen for self buff. His kit is mostly Melee and either single target or very low area which makes it hard for him to be used effective.
+
+His Pugilist sub offers a small self heal and a low range atk break that looses effectiveness if he got hit more than 5 times. This sub is very weak and only for Content like Porcelain tower useful since it got a selfheal.
+
+Paladin sub offers the most useful additions to his kit, a physical barrier, a second damage type as well as taunting blade which allows him to be abl to be played as tank. recommended (if not used as main tank disable taunting blade)
+
+Thief sub gives him the option to be played for Steal time, but other units do the job better than him.
+
+His main Issue is his very limited range and AP sustain. He is also weak to magic damage.
+
+He can be played in Bruiser comb or as Tank is most hybrid combs. His limited range and no aoe make are bad for PvE aswell, but hes still usable in most Content.","Sub: Paladin
+Passiv 1: Holy Knight's Protection/Viking Lore
+Passiv 2: Thief Lore/Viking Lore
+Reactive: Paladin's Guard",,,,,,,,,,
 MR,Ahlim,"Ahlim is one of the better MR units 
-She got fairly decent base stats and Dragoon offers the usual long range jump attacks and a strong atk buff.
+She got good base HP and agi, but fairly low atk for a main dps.
+Dragoon as main job offers the usual long range jump attacks and a strong atk buff.
 Her main sub gives a bravery decrease and a jump/move buff which may got a use in PvE but super niche usage and almost never recommended to use
 
 Assassin sub gives her the possibility to be played as Mug bot other than that the skills are super low range and don't help her much unless you desperatly need slash damage.
 
 Dual Gunner is her best sub giving her a second damage type to work with aswell as some good aoes and an additional defpen buff. 
 
-Her big problems are very heavy AP problems if not played with Xiza bells, fairly low atk stats since she doesnt get any boost from her MA or passivs and mediocre base res.
+Her big problems are very heavy AP problems if not played with Xiza bells, aswell as her low atk and base res.
 
-She can be played in bruiser and Pierce combs as sub dps.","Sub: Dual Gunner
+In PvP she can be played in Bruiser and Pierce combs as sub dps. For PvE she is usable in most content.","Sub: Dual Gunner
 Passiv 1: Tune-Up
 Passiv 2: Hp up/Ap up/ missle mastery depending on need
 Reactive: Dragon's Blade",,,,,,,,,,
 UR,Sakura,"Sakura is an amazing Mage
+She got for a mage good hp, high mag and decet agi. 
 She combines Light and lightning damage in her kit and can reduce the enemys resistance to those elements, aswell as buff her own and allies resistance to those aswell as dark. She got multiple diamond aoes and overall a very high range on her skills. Her sub offers support with Shell and protect if needed.
 
 Red mage as sub gives her mostly Cura and Sleep as useful additions to her kit, which are mainly good in manual play = Porcelain Tower and Live PvP
@@ -22,11 +58,14 @@ Kotodama Wielder on the other side will be her strongest and most versatile sub,
 
 Her big downsides are very mediocre base res values and no access to cast time reduction other than her own TMR.
 
+Her limit is a high range, hard hitting diamond aoe with dark killer which is very strong, but got high ap cost. 
+
 She fits well in any magic or light comb and even got her use in Lightning combs. ","Sub: Kotodama Wielder
 Passiv 1: Mag Up Lv 1
 Passiv 2: Thunder Blossom
 Reactive: Steeled Ephemeral Form/ Magic reflex (against mono magic combs)",,,,,,,,,,
 MR,Livialle,"Livialle is a fairly strong MR
+She got fairly low hp, decent mag and very low agi.
 She got access to very strong magic attacks as Blackmage main like Earthga and Flare.
 Blackmage sub gives access to Drain and sleep which are pretty strong skills, but they are usally not worth picking over Arith sub. 
 
@@ -41,6 +80,7 @@ Passiv 1: Mag Up Lv. 1
 Passiv 2: Level 4 to Level 3
 Reactive: Damage Distribution",,,,,,,,,,
 UR,Niv'Lu,"Niv'Lu is currently the best Missle unit
+She got low hp, decent atk and very high agi
 She combines high range, utility and damage in one kit
 As Sniper Main she got a lot of utility, she can reduce agi, break physical barriers, and remove hate and gets a buff for extra def pen and range. She can potentially be played in evasion combs since she got high agi and luck. 
 
@@ -50,11 +90,14 @@ Time mage gives her acces to haste and quicken which is mainly good in manual Pv
 
 Her biggest downside is AP problems if shes not used with Xiza Bell.  
 
+Her limit is a high range Diamon aoe that reduces def by a large amount for 3 turn, its a very deadly skill. 
+
 She is very versatile in her playstyle she plays well in Gunner combs, evasion combs, lightning combs or even as sub dps in most mixed damage physical teams. ","Sub: recommended Gunner, but any are usable
 Passiv 1: Long range
 Passiv 2: Sniper Mastery, but any passiv combination is possible
 Reactive: Slow Counter",,,,,,,,,,
 UR,Duane,"Duane is a very versatile Unit
+He got very high base hp and atk and decent agi.
 His Unique job can inflict Disable, reduce dark res and remove reraise, he also got a def/spr buff which gives him some extra tankyness, his slash buff even tho its fairly strong is usally recommended to be disable since his ai works very weird with it, best to test it out since its usage depends on team comb and map.
 His main sub gives atk and mag break skills which are decent but niche in its usage compared to its other subs. 
 
@@ -62,13 +105,16 @@ Viking sub gives him the very cheap very strong Launch and devastating Killing a
 
 Dragoon sub offers a second damage type, a strong atk buff and very high range jump attacks. recommended if used with Kain.
 
-His biggest downside are AP problems if not used with Xiza Bell.
+His biggest downside are AP problems if not used with Xiza Bell aswell as her low tankyness with underwhelming base res and very low hp.
+
+Duanes limit got good range, cross aoe which a lifedrain effect, very valueable for his kit, but high ap cost. 
 
 He fits well in any slash or dark comb, he is strong in Bruiser combs and can also be played in pierce combs or hybrid combs with units like Dragoon sub Lasswell.","Sub: recommended Viking, but every sub got its use
 Passiv 1: Viking Lore
 Passiv 2: recommended Knight hood, but every other passiv got its use
 Reactive: Dragon's Blade",,,,,,,,,,
 MR,Tyytas,"Tyytas is a very niche Tank. 
+He got extremly low atk and agi, but good base hp.
 Paladin main gives him a decent hp and def base and strong buffs like immortal spirit and saintly wall.
 His sub job is a must have since it gives access to Taunting blade and with that hate generation.
 Thanks to his MA and access to AP UP he can use first turn taunting Blade.
@@ -84,6 +130,7 @@ Passiv 1: Holy Knight's Protection (always)
 Passiv 2: Ap Up generally, Mage or unyielding protection depending on usage
 Reactive: Paladin's Guard/ Magic reflex (if used against magic)",,,,,,,,,,
 MR,Mariale,"Mariale is in a weird spot
+She got good base hp, fairly low mag and decent agi. 
 as Spellblade main shes build to be a magic tank, with good base magic res and buffs to decrease magic damage, but she gets outclassed by Rain, Agrias or even Fryevia in that role.
 Spellblade sub gives her a aoe magic res buff and access to taunting spell which is required if you use her as tank.
 
@@ -93,47 +140,170 @@ Thief sub is a physical class an offers very little to support her kit, its poss
 
 Her big downside she got very underwhelming base res as a supposed to be tank class and too little mag to be played as dps 
 
-She got some niche use in PvP as magic tank, but as I mentioned already outclassed by many other options, for PvE she got the Mug bot use and some fast clearing for easy Map in MP with Arith sub. ","Sub: Spellblade
+She got some niche use in PvP as magic tank, but as I mentioned already outclassed by many other options, for PvE she got the Mug bot use and some fast clearing for easy Map in MP with Arith sub. ","Sub: Spellblade / Arithmetician 
 Passiv 1: Thief Lore
-Passiv 2: Providence of Darkness
+Passiv 2: Providence of Darkness / Level 4 to Level 3 (only if used with Arith sub)
 Reactive: Damage distribution",,,,,,,,,,
-MR,Loreila,"Loreila is fairly bad, as Ranger main she gets nearly nothing from her sub job other than Viking Lore. Her base res are super bad and with MR stats and no inbuild def pen she wont deal much damage either. ","Sub: Ranger/Viking (only for atk buff)
+MR,Loreila,"Loreila is an underwhelming MR
+She got super low HP, low atk and acceptable agi.
+
+As Ranger main she got high range a strong diamond aoe with Barrage and some weak status effects with immobilize and poison.
+Ranger sub gives her a weak 1 turn evasion buff which is only to gain extra ap and the 100% hit skill Sharpshoot.
+
+Viking sub offers only the atk/def buff to support her, the atk skills are too low range to make use of them.
+
+Knight sub is just bad for her, melee atk skills with low damage, the debuffs might be decent but doesnt offer enough to use this sub ever.
+
+Her big downside is very low damage for a mainly dps class and very bad base resistance, she does no damage and dies to almost everything in one hit. 
+
+She is terrible in any PvP Content and only offers low long range damage for Niche PvE use. ","Sub: Ranger/Viking (only for atk buff)
 Passiv 1: Ranger Lore
 Passiv 2: Viking Lore
 Reactive: Reflex",,,,,,,,,,
-MR,Chel,"Chel being a green mage main there is not a lot of use for her, the Job is really bad as a main job offering only Ruin and Imperil as usable abilities. With Haste and Quicken from Time mage sub she got some use in live PvP thanks to her very low cast time. ","Sub: Time Mage
+MR,Chel,"Chel is only good in live PvP.
+She got extremly low hp, fairly low mag but very good agi.
+As Green mage main she starts with a handicap, the jb only offers Imperil and Ruin as strong spells.
+Green mage sub offers nothing usable.
+
+Time mage sub is what makes her good, it offers haste and Quicken which is the main reason to use her.
+
+Thief sub offers the passiv as very strong tool and you may get use from steal time and steal heart, but that is very niche.
+
+Her big downside is her underwhelming main kit as well as her very bad base hp and base res.
+
+She is almost only usable in live PvP as low cost quicken unit. For auto PvP she doesnt offer enough, same with most PvE content. ","Sub: Time Mage
 Passiv 1: Thief Lore
 Passiv 2: Speed Cast
 Reactive: Slow Counter",,,,,,,,,,
-UR,Luartha,"Luartha is the hardest hitting missle unit released so far, thanks to self-sacrifice and her double gunner buff she can deal devastating damage. additionally she got very strong slashres and can apply disable. she is farly squishy overall especially against magic, has height issues and no good reactive. ","Sub: Gunner
+UR,Luartha,"Luartha is the hardest hitting missle Unit.
+She got very low hp, very high atk and decent agi.
+Dual Gunner main offers a bunch of high range attacks as well as a strong buff which gives defpen for herself and missle attack to herself aswell as allies.
+Dual Gunner sub offers a evasion/def buff and a short range aoe which may got some use in niche situations.
+
+Gunner sub gives her access to valuable status effects as well as a aoe crit buff, this is her recommended sub.
+
+Soldier sub offers a bunch of slash atks which are mostly melee and offer nearly nothing to support her, might have some value just for the atk buff. 
+
+Her big downsides are as for most units AP problems, she also got very low hp and with Self sacrifice bad base res. Also her reactive skills are very lackluster.
+
+Her Limit is a low range, hard hitting skill that decreased agi, its a fairly weak limit compared to other units. 
+
+She can be played as main dps in missle and hybrid combs aswell as sub dps in hybrid combs. She is amazing in any PvE Content. ","Sub: Gunner
 Passiv 1: Self-Sacrifice
 Passiv 2: Tune-Up
-Reactive: Predictive Fire",,,,,,,,,,
-UR,Kain,"Kain is an amazing DPS, he got (tho fairly low values) def pen and pierce res reduction, disable and reduces enemys healing. His base res arent good, but not bad either, his biggest downside is low magic res. ","Sub: Paladin
+Reactive: Predictive Fire / Counter Shot",,,,,,,,,,
+UR,Kain,"Kain is the best overall Pierce dps.
+He got average base hp, atk and agi
+Dragoon of Baron main offers a lot, decreased healing, confuse, decrease pierce res, lifedrain and a very strong agi/atk buff.
+His dragoon sub offers 2 very low range skills, this sub is never the best option.
+
+Viking offers another atk buff and some Slash atks for a second damage type, best PvE sub.
+
+Paladin sub offers Immortal spirit which makes it his best sub choice for PvP.
+
+His main problem is his AP sustain aswell as his low base res. 
+
+He plays well in Pierce combs and hybrid combs as main dps and works well in mot PvE Content.","Sub: Paladin
 Passiv 1: Pride of the Dragoons
 Passiv 2: Holy knights protection/ Viking Lore
 Reactive: Paladins Guard",,,,,,,,,,
-UR,Rosa,"Rosa is kind of a support dps, she got plenty of strong healing aswell as protect and Shell to support allies. She also got Holy. She got the benefit of hybrid damage with her missle skills, which is also her biggest issue since they are physical and shes a magic based unit. Her base res are bad except for Magic. ","Sub: White Mage
+UR,Rosa,"Rosa is some kind of Support dps
+She got low HP, low atk, decent mag and decent agi
+
+Her Unique main White Mage of Baron is in a weird spot she got high magic but most of her skills are physical.
+The Main kit offers a similar skill to Curada, a aoe skill that negates several status effect, holy, a stronger more expensive version of Sharpshoot and a missle skill that reduces ice res. Overall a pretty strong kit, but her missle skills are super weak do to her low atk stat.
+
+Her Baron sub offers a silence and a weak missle aoe, unless you REALLY need the silence, don't use this sub.
+
+White mage is by far her best sub it offers shell, Protect, Curada and Curaga for additional healing/support. Sadly she didnt got access to Full life which would've made her much stronger. This sub is recommended for most Content.
+
+Black Mage sub gives her additional fire power with all 3 versions of Blizzard, sleep and Drain, since she got no access to Cast time reduction Black mage is fairly weak in most PvP situations. 
+
+Her Limit is a very strong heal in a square aoe around herself that gives AP for allies, a very strong limit but the range limits its use. 
+
+Her big weakness are her low atk stat which weakens her missle atks by a lot and no access to cast time reduction which limits the strengh of her magic skills. Additionally she got low HP and overall weak base res. 
+
+She can be played as main healer or sub dps in most teams, but looses to several other units like Ayaka/Ildyra/HLeela who play a similar role, her main benefit over those units is the physical missle damage she can offer. ","Sub: White Mage
 Passiv 1: Mag up lv1
 Passiv 2: Deep Love/Blessing of Ice
 Reactive: Dodge",,,,,,,,,,
-UR,Cecil,"Cecil, is a hard hitting character, with strong base slash and pierce res and some decent def with his passiv and selfbuff. He also got some ulitily with disable and atkbreak. A lot of his skills reduce his own HP and hes very vurnable to magic damage. Hes also lacking def or slashpen. ","Sub: Soldier
-Passiv 1: Self-Sacrifice
+UR,Cecil,"Cecil is a underrated UR
+He got good base hp and mediocre base atk and agi
+
+His Unique Main Lunar Paladin offers a lot of Utility.
+His Main kit offers a attack that raises his own agi, a disable and a high range aoe that breaks atk, he got sdef/spr buff can can apply a physical barrier for allies but reduces his own HP. 
+
+His Lunar sub offers a Max hp buff, a reaper killer atk and a magic barrier for allies in exchange for his own hp, This sub is only used if you have need for the magic barrier.
+
+Soldier sub offers a strong atk buff, and several strong atk skills, but most of them reduce his hp which can make him very fragile. Usally recommended if used properly.
+
+Monk sub offers a very strong 1 turn atk buff and several fist abilitys giving him a second damage type. Recommended if you are scared he kills himself with Soldier sub. 
+
+His limit is a 3 range single target stun. Pretty weak for a limit. 
+
+His main weakness is that most of his good skills reduce his Hp which makes him hard to play, hes missing def pen and hes weak to missle & magic.
+
+He can be played as sub dps in most slash combs or in a unique supportish role for his Barriers. ","Sub: any depending on use
+Passiv 1: Self-Sacrifice/ HP UP
 Passiv 2: Blood of the Lunarias
 Reactive: Overcomer of Ordeals",,,,,,,,,,
-UR,Skahal,"Skahal is mostly a stronger Mediena. He got extremly high Magic stats and good cast time.
-Staff mage offers a 100% hit skill and a move/jump +1 buff. Time mage offers some utility with haste and quicken. He is very fragile. ","Sub: Staffmage (Time mage only for manual)
+UR,Skahal,"Skahal is mostly a stronger Mediena
+He got low HP, high mag and good agi. 
+
+Blackmage Main offers Thunder, Thundaga and none elemental Flare. Do to his MA and access to Speed Cast passiv his Cast time is extremly fast and even Flare is almost instant cast. 
+Blacke mage sub offer Drain, Sleep and Thundara, which is his weakest sub job. 
+
+Staff Mage offers a Move/Jump buff, a stun, ct decrease a teleport and a aoe 100% hit skill. Staff mage his best offensive Sub and lets him counter evasion teams. 
+
+Time Mage sub offers none elemental Comet as well as Haste and Quicken to support his allies. Its the best option if you wanna keep him in the back line or need additional support. 
+
+His limit is a 3-hit diamond aoe that can paralyze a potentially very strong Limit. 
+
+His Main weakness is his none existing tankyness with his low HP and very bad base res. Staff mage missing the physical barrier is a big problem for him. (if you can even count that)
+
+He can be played as sub dps & haste support in most Team combs. He can be played for quicken in live PvP and is very strong in almost any PvE Content. ","Sub: Staffmage (dps)/ Time mage (support)
 Passiv 1: Mag up
-Passiv 2: Mag up/def up/speed cast
+Passiv 2: Speed cast (general best), Def up/mag up in rare cases
 Reactive: Anti-Barrier",,,,,,,,,,
-UR,Ildyra,"Ilydra is a amazing Unit. She got high damage on her instacast magic, aswell as strong heals. She is mostly played as a sub dps support. She is fairly weak against all damage types except for Magic. ","Sub: Spellblade (only for resist magic)
+UR,Ildyra,"Ilydra shares the spot of the best support/dps with Halloween Leela
+She got low HP, high mag and good agi
+
+Arithmetician is one of the best Jobs in the game. 
+Arith Main offers cure and water which increase in effectiveness based on the targets height, a diamond aoe Cura and a cross aoe Holy (not 100% hit) that increase in effectiveness if the targets height is a multiple of 3, and a diamond aoe Waterga which increases in strengh if the level of the target is a multiple of 4. 
+
+Arith sub offers a height 3 Disable, a level 4 watera and a CT average. the multiple of height and Level can be changed with her passivs. 
+
+Spellblade sub offers offers several water slash atks, a magic res buff and the ability to generate hate which is not recommended, This sub is recommended but only for the magic res buff.
+
+Black Mage sub offer Drain, Sleep, Water and Watera, since she got no cast time reduction at all stronger version in her main kit this sub is bad for her. 
+
+Her Limit increases the CT of herself and Allies in the radius increased in effectiveness if the targets level is multiple of 3. This limit is almost only good if shes the last unit to move and usally recommended to be disable. Its difficult to use effective. 
+
+Her big problem is her low base hp and base res.
+
+She can be played in every PvP comb and is the best PvE unit for everything except Raid and maybe some thunder based Content. ","Sub: Spellblade (only for resist magic)
 Passiv 1: Mag up
 Passiv 2: Level 4 to level 3
 Reactive: Damage distribution",,,,,,,,,,
-UR,Howlet,"Howlet is a strong magic slash attacker. His main kit offers plenty of strong magic slash attacks, Redmage gives him cura, aerora and the strong Jamming Thrust. White mage offers some healing utility. He aint got any big defizits in his base resistence, but his kit offers no defensive buffs, his survival is relient on a good tank and his decent base HP.","Sub: Redmage/White Mage
+UR,Howlet,"Howlet is a strong magic slash attacker.
+He got decent hp, so far the highest base mag and decent agi. 
+
+Rune Knight Main offers several hard hitting Slash atks including a ranged aoe and a magic lifedrain that increases his mag for one turn. 
+
+Rune Knight sub gives a 3 turn mag buff in exchange for his own hp and a TP skill that decreases wind res, his worst sub don't use. 
+
+Red mage sub offer Cura, sleep and Jamming thrust and just for Jamming Thrust this is his most valuable sub job. 
+
+White Mage offers Protect/Shell for some support and Curada/Curaga for healing, since hes mostly a Main dps Jamming thrust is hard to skip, but if you need extra support or want him to stay in the backline white mage might be worth picking up. 
+
+His Limit decreases Wind res on a single target, decent for raid, but Jamming thrust offers more range and Hazard Slash ore damage. 
+
+His Main weakness is his low tankyness and he can suffer from AP issues if the battle goes on for too long. 
+
+He can be played as Main or sub dps in most hybrid combs. Nothing special for PvE.","Sub: Redmage/White Mage
 Passiv 1: Wind-Enhancing Rune
-Passiv 2: Sharp Mind
-Reactive: Magic Commutation",,,,,,,,,,
+Passiv 2: Sharp Mind / Mage's protection (in very rare cases)
+Reactive: Magic Commutation / Magic reflex (if facing multiple magic attacker)",,,,,,,,,,
 UR,Fryevia,"Fryevia is a Magic Tank. She got mediocre base resistence against most damage types, but high resistence against magic. She got some okay damage output with her decently high Magic and got some healing potential with White Mage sub, but this removes her potential to tank. She is an overall fairly weak UR. ","Sub: Spellblade (tank), White Mage (not your primary tank)
 Passiv 1: Providence of Wind
 Passiv 2: Saviors protection / Emerald Echo
